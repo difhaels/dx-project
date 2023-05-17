@@ -1,4 +1,4 @@
 function Section2() {
-  return <div>ini adalah Section2</div>;
+  return <div class="text-center text-green-500 bg-green-100">Galeri</div>;
 }
 export default Section2;

@@ -1,4 +1,4 @@
 function Section5() {
-  return<div className="text-blue-500 text-xl">Ini section 5</div>
+  return<div class="text-center text-green-500 bg-green-100 text-xl font-serif">Kenapa Memilih Determinix?</div>
 }
 export default Section5;

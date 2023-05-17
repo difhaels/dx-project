@@ -1,4 +1,4 @@
 function Section5() {
-  return <div>ini adalah Section5</div>;
+  return<div className="text-blue-500 text-xl">Ini section 5</div>
 }
 export default Section5;

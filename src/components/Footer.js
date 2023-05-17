@@ -1,4 +1,4 @@
 function Footer() {
-  return <div>ini adalah Footer</div>;
+  return <div className="">ini adalah Footer</div>;
 }
 export default Footer;

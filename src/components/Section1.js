@@ -1,11 +1,11 @@
 import slide1 from "./img/section1/slide1.png";
-import slide2 from "./img/section1/slide2.jpg";
-import slide3 from "./img/section1/slide3.jpg";
+import slide2 from "./img/section1/slide2.png";
+import slide3 from "./img/section1/slide3.png";
 
 // import Swiper core and required modules
 import { Autoplay, Navigation, Pagination, Scrollbar, A11y } from "swiper";
 
-import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
@@ -24,6 +24,7 @@ function Section1() {
           slidesPerView={1}
           pagination={{ clickable: true, backgroundColor: "#000" }}
           autoplay={{ delay: 5000 }}
+          navigation
         >
           <SwiperSlide>
             <img src={slide1} className="h-[400px] rounded-3xl" alt="slide1" />

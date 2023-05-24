@@ -16,7 +16,7 @@ import "swiper/css/autoplay";
 
 import "./css/section1.css"
 function Section1() {
-  return <div className="px-80 py-5">
+  return <div className="xl:mx-auto 2xl:py-5">
     <Swiper
           // install Swiper modules
           modules={[Autoplay, Navigation, Pagination, Scrollbar, A11y]}
@@ -26,13 +26,13 @@ function Section1() {
           autoplay={{ delay: 5000 }}
         >
           <SwiperSlide>
-            <img src={slide1} className="h-[500px] rounded-3xl" alt="slide1" />
+            <img src={slide1} className="h-[400px] rounded-3xl" alt="slide1" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={slide2} className="h-[500px] rounded-3xl" alt="slide2" />
+            <img src={slide2} className="h-[400px] rounded-3xl" alt="slide2" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={slide3} className="h-[500px] rounded-3xl" alt="slide3" />
+            <img src={slide3} className="h-[400px] rounded-3xl" alt="slide3" />
           </SwiperSlide>
         </Swiper>
   </div>;

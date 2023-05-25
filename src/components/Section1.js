@@ -17,7 +17,7 @@ import "swiper/css/autoplay";
 import "./css/section1.css"
 function Section1() {
   return <div className="flex flex-col items-center">
-    <h1 className="py-5">Jasa foto pernikahan dan event</h1>
+    <h1 className="py-5  text-lg font-bold text-teal-500">Jasa foto pernikahan dan event</h1>
     <Swiper
       // install Swiper modules
       modules={[Autoplay, Navigation, Pagination, Scrollbar, A11y]}

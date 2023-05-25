@@ -5,7 +5,7 @@ import slide3 from "./img/section1/slide3.png";
 // import Swiper core and required modules
 import { Autoplay, Navigation, Pagination, Scrollbar, A11y } from "swiper";
 
-import SwiperCore, { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
@@ -16,26 +16,26 @@ import "swiper/css/autoplay";
 
 import "./css/section1.css"
 function Section1() {
-  return <div className="xl:mx-auto 2xl:py-5">
+  return <div className="flex flex-col items-center">
+    <h1 className="py-5">Jasa foto pernikahan dan event</h1>
     <Swiper
-          // install Swiper modules
-          modules={[Autoplay, Navigation, Pagination, Scrollbar, A11y]}
-          spaceBetween={50}
-          slidesPerView={1}
-          pagination={{ clickable: true, backgroundColor: "#000" }}
-          autoplay={{ delay: 5000 }}
-          navigation
-        >
-          <SwiperSlide>
-            <img src={slide1} className="h-[400px] rounded-3xl" alt="slide1" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={slide2} className="h-[400px] rounded-3xl" alt="slide2" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={slide3} className="h-[400px] rounded-3xl" alt="slide3" />
-          </SwiperSlide>
-        </Swiper>
+      // install Swiper modules
+      modules={[Autoplay, Navigation, Pagination, Scrollbar, A11y]}
+      spaceBetween={50}
+      slidesPerView={1}
+      pagination={{ clickable: true, backgroundColor: "#000" }}
+      autoplay={{ delay: 5000 }}>
+        <SwiperSlide>
+          <img src={slide1} className="xl:h-[400px] rounded-3xl mx-auto" alt="slide1" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={slide2} className="xl:h-[400px] rounded-3xl mx-auto" alt="slide2" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={slide3} className="xl:h-[400px] rounded-3xl mx-auto" alt="slide3" />
+        </SwiperSlide>
+    </Swiper>
+    <button className="text-center my-5 px-3 py-2 bg-teal-500 text-white rounded-lg hover:bg-teal-300">Daftar Member</button>
   </div>;
   
 }

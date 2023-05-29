@@ -18,13 +18,13 @@ import "./css/section1.css";
 function Section1() {
   return (
     <div className="flex flex-col items-center">
-      <h1 className="py-5">Jasa foto pernikahan dan event</h1>
+      <h1 className="py-5 text-xl text-text">DX Photograph</h1>
       <Swiper
         // install Swiper modules
         modules={[Autoplay, Navigation, Pagination, Scrollbar, A11y]}
         spaceBetween={50}
         slidesPerView={1}
-        pagination={{ clickable: true, backgroundColor: "#000" }}
+        pagination={{ clickable: true, backgroundColor: "#ABC4AA" }}
         autoplay={{ delay: 5000 }}
       >
         <SwiperSlide>
@@ -37,7 +37,7 @@ function Section1() {
           <img src={slide3} className="xl:h-[400px] rounded-3xl mx-auto" alt="slide3" />
         </SwiperSlide>
       </Swiper>
-      <button className="text-center my-5 px-3 py-2 bg-teal-500 text-white rounded-lg hover:bg-teal-300">Daftar Member</button>
+      <button className="text-center my-5 px-3 py-2 bg-bg text-text rounded-lg hover:text-white">Daftar Member</button>
     </div>
   );
 }

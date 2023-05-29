@@ -1,10 +1,7 @@
 function Section2() {
   return (
-    <div class="text-center text-green-500 bg-green-100">
-      <h1>Mau Foto Apa?</h1>
-      <a href="https://www.flaticon.com/free-icons/wedding" title="wedding icons">
-        Wedding icons created by Freepik - Flaticon
-      </a>
+    <div class="text-center text-text bg-[#E3F4F4]">
+      <h1>Section2</h1>
     </div>
   );
 }

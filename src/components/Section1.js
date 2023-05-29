@@ -18,7 +18,7 @@ import "./css/section1.css";
 function Section1() {
   return (
     <div className="mx flex flex-col items-center">
-      <h1 className="py-5">Jasa Foto Pernikahan dan Event</h1>
+      <h1 className="py-5 text-text">Jasa Foto Pernikahan dan Event</h1>
       <Swiper
         // install Swiper modules
         modules={[Autoplay, Navigation, Pagination, Scrollbar, A11y]}

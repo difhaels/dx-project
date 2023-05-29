@@ -1,4 +1,4 @@
 function Section3() {
-  return <div>ini adalah Section3</div>;
+  return <div className="px"></div>;
 }
 export default Section3;

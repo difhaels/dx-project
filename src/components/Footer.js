@@ -1,4 +1,3 @@
-import DXlogo1 from "./img/logo/DX-logo-1.png";
 import DXlogo2 from "./img/logo/DX-logo-2.png";
 
 export default function Footer() {
@@ -6,8 +5,7 @@ export default function Footer() {
     <footer className="justify-between bg-[#ABC4AA] text-white sm:py-24">
       <div className="sm:flex hidden justify-center">
         <div className="my-9 mr-52">
-          <a href="https://difhaels.github.io/determinix " target={"_blank"}>
-            {" "}
+          <a href="https://difhaels.github.io/determinix " target={"_blank"} rel="noreferrer">
             <img className="hover:origin-[33%_75%]" src={DXlogo2} width="120" alt="dx" />
           </a>
         </div>

@@ -1,4 +1,4 @@
 function Section3() {
-  return <div></div>;
+  return <div className="px"></div>;
 }
 export default Section3;

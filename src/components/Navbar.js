@@ -2,7 +2,7 @@ import DXlogo2 from "./img/logo/DX-logo-1.png";
 function Navbar() {
   
   return(
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="px">
         <div class="flex items-center justify-between h-16">
           <div class="flex items-center">
             <div class="flex-shrink-0">

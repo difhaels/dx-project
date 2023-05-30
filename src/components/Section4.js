@@ -1,4 +1,4 @@
 function Section4() {
-  return <div>ini adalah Section4</div>;
+  return;
 }
 export default Section4;

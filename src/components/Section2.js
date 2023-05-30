@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom"
 function Section2() {
   const navigate = useNavigate();
   return (
-    <div class="text-center text-text bg-[#E3F4F4] pb-40">
+    <div className="text-center text-text bg-[#E3F4F4] pb-40">
       <h1 className="text-xl py-10">Mau Foto Apa?</h1>
       <div className="flex justify-center">
 

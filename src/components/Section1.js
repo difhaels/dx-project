@@ -18,7 +18,7 @@ import './css/section1.css';
 function Section1() {
   return (
     <div className="flex flex-col items-center">
-      <h1 className="py-5 text-xl font-serif">Jasa foto pernikahan dan event</h1>
+      <h1 className="py-5">Jasa foto pernikahan dan event</h1>
       <Swiper
         // install Swiper modules
         modules={[Autoplay, Navigation, Pagination, Scrollbar, A11y]}
@@ -36,8 +36,14 @@ function Section1() {
         <SwiperSlide>
           <img src={slide3} className="xl:h-[400px] rounded-3xl mx-auto" alt="slide3" />
         </SwiperSlide>
+        <SwiperSlide>
+          <img src={slide4} className="xl:h-[400px] rounded-3xl mx-auto" alt="slide4" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={slide5} className="xl:h-[400px] rounded-3xl mx-auto" alt="slide5" />
+        </SwiperSlide>
       </Swiper>
-      <button className="text-center my-5 px-3 py-2 bg-teal-500 text-white rounded-lg hover:bg-teal-300">Daftar Member</button>
+      <button className="text-center my-5 px-3 py-2 bg-bg text-text rounded-lg hover:text-white">Daftar Member</button>
     </div>
   );
 }

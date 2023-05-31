@@ -1,14 +1,14 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./Pages/Home";
+import Home from "./Home";
 
 // menu import
-import Family from "./Menu/Family";
-import Graduation from "./Menu/Graduation";
-import Group from "./Menu/Group";
-import Wedding from "./Menu/Wedding";
-import Pet from "./Menu/Pet";
-import Etc from "./Menu/Etc";
-import OurTeam from "./Menu/Ourteam";
+import Family from "../Menu/Family";
+import Graduation from "../Menu/Graduation";
+import Group from "../Menu/Group";
+import Wedding from "../Menu/Wedding";
+import Pet from "../Menu/Pet";
+import Etc from "../Menu/Etc";
+import OurTeam from "../Menu/Ourteam";
 
 const App = () => {
   return (

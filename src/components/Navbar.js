@@ -1,9 +1,9 @@
-import DXlogo2 from './img/logo/DX-logo-3.png';
+import DXlogo3 from './img/logo/DX-logo-3.png';
 function Navbar() {
   return (
     <div className="px bg-bg">
       <div className="flex items-center justify-between">
-        <img src={DXlogo2} alt="Logo" width="60"></img>
+        <img src={DXlogo3} alt="Logo" width="60"></img>
         <div className="flex">
             {/* <a href="#" className="text-text  hover:text-white px-3 py-2 rounded-lg text-sm font-medium">
               Beranda

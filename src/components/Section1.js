@@ -13,35 +13,36 @@ import 'swiper/css/autoplay';
 
 import './css/section1.css';
 function Section1() {
-  return (
-    <div className="flex flex-col items-center">
-      <h1 className="py-5">Jasa foto pernikahan dan event</h1>
-      <Swiper
-        // install Swiper modules
-        modules={[Autoplay, Navigation, Pagination, Scrollbar, A11y]}
-        spaceBetween={50}
-        slidesPerView={1}
-        pagination={{ clickable: true, backgroundColor: '#000' }}
-        autoplay={{ delay: 5000 }}
-      >
-        <SwiperSlide>
-          <img src={slide1} className="xl:h-[400px] rounded-3xl mx-auto" alt="slide1" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slide2} className="xl:h-[400px] rounded-3xl mx-auto" alt="slide2" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slide3} className="xl:h-[400px] rounded-3xl mx-auto" alt="slide3" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slide1} className="xl:h-[400px] rounded-3xl mx-auto" alt="slide4" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slide1} className="xl:h-[400px] rounded-3xl mx-auto" alt="slide5" />
-        </SwiperSlide>
-      </Swiper>
-      <button className="text-center my-5 px-3 py-2 bg-bg text-text rounded-lg hover:text-white">Daftar Member</button>
-    </div>
+  return (<>
+      <div className="flex flex-col items-center">
+        <h1 className="py-5">Jasa foto pernikahan dan event</h1>
+        <Swiper
+          // install Swiper modules
+          modules={[Autoplay, Navigation, Pagination, Scrollbar, A11y]}
+          spaceBetween={50}
+          slidesPerView={1}
+          pagination={{ clickable: true, backgroundColor: '#000' }}
+          autoplay={{ delay: 5000 }}
+        >
+          <SwiperSlide>
+            <img src={slide1} className="xl:h-[400px] rounded-3xl mx-auto" alt="slide1" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={slide2} className="xl:h-[400px] rounded-3xl mx-auto" alt="slide2" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={slide3} className="xl:h-[400px] rounded-3xl mx-auto" alt="slide3" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={slide1} className="xl:h-[400px] rounded-3xl mx-auto" alt="slide4" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={slide1} className="xl:h-[400px] rounded-3xl mx-auto" alt="slide5" />
+          </SwiperSlide>
+        </Swiper>
+        <button className="text-center my-5 px-3 py-2 bg-bg text-text rounded-lg hover:text-white">Daftar Member</button>
+      </div>
+    </>
   );
 }
 

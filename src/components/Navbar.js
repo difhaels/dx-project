@@ -1,4 +1,4 @@
-import DXlogo2 from "./img/logo/DX-logo-3.png";
+import DXlogo2 from './img/logo/DX-logo-2.png';
 function Navbar() {
   return (
     <div className="px bg-bg">
@@ -22,5 +22,4 @@ function Navbar() {
     </div>
   );
 }
-
 export default Navbar;

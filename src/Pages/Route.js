@@ -9,12 +9,19 @@ import Wedding from "../Menu/Wedding";
 import Pet from "../Menu/Pet";
 import Etc from "../Menu/Etc";
 import OurTeam from "../Menu/Ourteam";
+import Login from "../Menu/Login&Register/Login";
+import Reg from "../Menu/Login&Register/Register";
 
 const App = () => {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
+        {/* Login & Register start*/}
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Reg />} />
+        {/* Login & Register end*/}
+
         {/* Section 2 pindah halaman start */}
         <Route path="/family" element={<Family />} />
         <Route path="/graduation" element={<Graduation />} />

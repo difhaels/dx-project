@@ -1,5 +1,7 @@
 import DXlogo3 from './img/logo/DX-logo-3.png';
+import { useNavigate } from "react-router-dom"
 function Navbar() {
+  const navigate = useNavigate();
   return (
     <div className="px bg-bg">
       <div className="flex items-center justify-between">
@@ -14,9 +16,7 @@ function Navbar() {
             <a href="#" className="text-text  hover:text-white px-3 py-2 rounded-lg text-sm font-medium">
               Layanan
             </a> */}
-            <a href="./Login/loginform.html" className="text-text  hover:text-white px-3 py-2 rounded-lg text-sm font-medium">
-              Login
-            </a>
+            <button onClick={() => navigate("login")} className="text-text  hover:text-white px-3 py-2 rounded-lg text-sm font-medium">Login</button>
         </div>
       </div>
     </div>

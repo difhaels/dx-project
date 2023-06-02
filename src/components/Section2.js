@@ -18,21 +18,21 @@ function Section2() {
 
           <div className="border-[5px] border-white m-3 rounded-xl" onClick={() => navigate('family')}>
             <div className="border-green-600 border-4 bg-white rounded-xl hover:bg-bg">
-              <img className="h-[90px] px-5 pt-3" src={Family} />
+              <img className="h-[90px] px-5 pt-3" src={Family} alt="family"/>
               <h1 className="pb-3 font-bold pt-1 font-mono text-slate-950 hover:text-text">Family</h1>
             </div>
           </div>
 
           <div className="border-[5px] border-white m-3 rounded-xl" onClick={() => navigate('graduation')}>
             <div className="border-green-600 border-4 bg-white rounded-xl hover:bg-bg">
-              <img className="h-[90px] px-5 pt-3" src={Graduation} />
+              <img className="h-[90px] px-5 pt-3" src={Graduation} alt="graduation"/>
               <h1 className="pb-3 font-bold pt-1 font-mono text-slate-950 hover:text-text">Graduation</h1>
             </div>
           </div>
 
           <div className="border-[5px] border-white m-3 rounded-xl" onClick={() => navigate('group')}>
             <div className="border-green-600 border-4 bg-white rounded-xl hover:bg-bg">
-              <img className="h-[90px] px-5 pt-3" src={Group} />
+              <img className="h-[90px] px-5 pt-3" src={Group} alt="group"/>
               <h1 className="pb-3 font-bold pt-1 font-mono text-slate-950 hover:text-text">Group</h1>
             </div>
           </div>
@@ -43,21 +43,21 @@ function Section2() {
 
           <div className="border-[5px] border-white m-3 rounded-xl" onClick={() => navigate('wedding')}>
             <div className="border-green-600 border-4 bg-white rounded-xl hover:bg-bg">
-              <img className="h-[90px] px-5 pt-3" src={Wedding} />
+              <img className="h-[90px] px-5 pt-3" src={Wedding} alt="wedding"/>
               <h1 className="pb-3 font-bold pt-1 font-mono text-slate-950 hover:text-text">Wedding</h1>
             </div>
           </div>
 
           <div className="border-[5px] border-white m-3 rounded-xl" onClick={() => navigate('pet')}>
             <div className="border-green-600 border-4 bg-white rounded-xl hover:bg-bg">
-              <img className="h-[90px] px-5 pt-3" src={Pet} />
+              <img className="h-[90px] px-5 pt-3" src={Pet} alt="pet" />
               <h1 className="pb-3 font-bold pt-1 font-mono text-slate-950 hover:text-text">Pet</h1>
             </div>
           </div>
 
           <div className="border-[5px] border-white m-3 rounded-xl" onClick={() => navigate('etc')}>
             <div className="border-green-600 border-4 bg-white rounded-xl hover:bg-bg">
-              <img className="h-[90px] px-5 pt-3" src={Etc} />
+              <img className="h-[90px] px-5 pt-3" src={Etc} alt="etc"/>
               <h1 className="pb-3 font-bold pt-1 font-mono text-slate-950 hover:text-text">Etc</h1>
             </div>
           </div>

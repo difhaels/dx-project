@@ -58,9 +58,9 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mx-auto my-10 w-[90%] h-[0.5px] bg-white hidden px-5 sm:flex"></div>
+        <div className="mx-auto my-10 w-[90%] h-[0.5px] bg-white hidden sm:flex"></div>
 
-        <div className="flex  justify-center gap-6">
+        <div className="flex  justify-center gap-6 py-10 sm:py-0">
           <a href="https://wa.me/" target="_blank" rel="noreferrer">
             <svg role="img" width="40" className="fill-current hover:text-text " viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <title>WhatsApp</title>

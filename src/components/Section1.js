@@ -19,7 +19,7 @@ function Section1() {
   const navigate = useNavigate()
   return (<>
       <div className="px flex flex-col items-center py-14">
-        <h1 className="py-5">Jasa foto pernikahan dan event</h1>
+        <h1 className="py-5 text-bg font-serif font-semibold">Jasa foto pernikahan dan event</h1>
         <Swiper
           // install Swiper modules
           modules={[Autoplay, Navigation, Pagination, Scrollbar, A11y]}

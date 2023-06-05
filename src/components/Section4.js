@@ -1,7 +1,7 @@
 function Section4() {
   return (
     <>
-      <div className="bg-[#E3F4F4] py-14">
+      <div className="px bg-[#E3F4F4] py-14">
         <h1 className="text-2xl text-center text-text font-bold pb-5">Kenapa Memilih DX Photograph?</h1>
         <h1 className="text-center text-xl text-slate-500 mb-5 py-1">1. Expert Team</h1>
         <h1 className="text-center text-xl text-slate-500 mb-5 py-1">2. Fast Action</h1>

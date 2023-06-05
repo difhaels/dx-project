@@ -18,7 +18,7 @@ import { useNavigate } from 'react-router-dom';
 function Section1() {
   const navigate = useNavigate()
   return (<>
-      <div className="flex flex-col items-center py-14">
+      <div className="px flex flex-col items-center py-14">
         <h1 className="py-5">Jasa foto pernikahan dan event</h1>
         <Swiper
           // install Swiper modules

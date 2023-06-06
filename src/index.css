@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .px {
-    @apply px-80
+    @apply px-5 sm:px-80
 }

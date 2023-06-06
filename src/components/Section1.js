@@ -15,8 +15,6 @@ import { useNavigate } from "react-router-dom"
 
 import './css/section1.css';
 
-import { useNavigate } from 'react-router-dom';
-
 function Section1() {
   return (<>
       <div className="px flex flex-col items-center py-14">

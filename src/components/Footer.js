@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <>
       <div className="px justify-between bg-[#ABC4AA] text-white sm:py-14">
-        <div className="hidden sm:flex justify-center">
+        <div className="hidden 2xl:flex justify-center">
           <div className="my-9 mr-52">
             <a href="https://difhaels.github.io/determinix " target={"_blank"} rel="noreferrer">
               <img className="hover:origin-[33%_75%]" src={DXlogo2} width="120" alt="dx" />
@@ -58,7 +58,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mx-auto my-10 w-[90%] h-[0.5px] bg-white hidden sm:flex"></div>
+        <div className="mx-auto my-10 w-[90%] h-[0.5px] bg-white hidden 2xl:flex"></div>
 
         <div className="flex  justify-center gap-6 py-10 sm:py-0">
           <a href="https://wa.me/" target="_blank" rel="noreferrer">

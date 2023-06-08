@@ -80,6 +80,10 @@ export default function Footer() {
             </svg>
           </a>
         </div>
+
+        <div className="flex justify-center pt-14">
+          <h1>Determinix 2023</h1>
+        </div>
       </div>
     </>  
   );

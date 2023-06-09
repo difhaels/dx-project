@@ -10,12 +10,12 @@ function Section3() {
     <div className="px py-16 bg-slate-100">
       <h1 className="text-center text-xl text-slate-900 font-semibold pb-10">Mini Gallery</h1>
       <div className="flex flex-wrap justify-center gap-7 sm:gap-14 pb-10">
-        <img src={img1} className="h-[300px] w-[420px] border-[15px] border-b-[40px] border-stone-50 shadow-2xl"/>
-        <img src={img2} className="h-[300px] w-[420px]  border-[15px] border-b-[40px] border-stone-50 shadow-2xl"/>
-        <img src={img3} className="h-[300px] w-[420px] border-[15px] border-b-[40px] border-stone-50 shadow-2xl"/>
-        <img src={img4} className="h-[300px] w-[420px] border-[15px] border-b-[40px] border-stone-50 shadow-2xl"/>
-        <img src={img5} className="h-[300px] w-[420px] border-[15px] border-b-[40px] border-stone-50 shadow-2xl"/>
-        <img src={img6} className="h-[300px] w-[420px] border-[15px] border-b-[40px] border-stone-50 shadow-2xl"/>
+        <img src={img1} alt="img-gallery" className="h-[300px] w-[420px] border-[15px] border-b-[40px] border-stone-50 shadow-2xl"/>
+        <img src={img2} alt="img-gallery" className="h-[300px] w-[420px]  border-[15px] border-b-[40px] border-stone-50 shadow-2xl"/>
+        <img src={img3} alt="img-gallery" className="h-[300px] w-[420px] border-[15px] border-b-[40px] border-stone-50 shadow-2xl"/>
+        <img src={img4} alt="img-gallery" className="h-[300px] w-[420px] border-[15px] border-b-[40px] border-stone-50 shadow-2xl"/>
+        <img src={img5} alt="img-gallery" className="h-[300px] w-[420px] border-[15px] border-b-[40px] border-stone-50 shadow-2xl"/>
+        <img src={img6} alt="img-gallery" className="h-[300px] w-[420px] border-[15px] border-b-[40px] border-stone-50 shadow-2xl"/>
       </div>
     </div>
   </>);

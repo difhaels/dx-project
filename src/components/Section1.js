@@ -18,7 +18,7 @@ import './css/section1.css';
 function Section1() {
   const navigate = useNavigate();
   return (<>
-      <div className="px flex flex-col items-center py-14">
+      <div className="px bg-slate-100 flex flex-col items-center py-14">
         <h1 className="py-5 text-bg font-serif font-semibold">Jasa foto pernikahan dan event</h1>
         <Swiper
           // install Swiper modules

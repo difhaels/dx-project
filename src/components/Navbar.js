@@ -1,36 +1,15 @@
-import DXlogo2 from "./img/logo/DX-logo-1.png";
+import DXlogo3 from './img/logo/DX-logo-3.png';
+import { useNavigate } from "react-router-dom"
 function Navbar() {
-  return (
-      <div class="px">
-        <div class="flex items-center justify-between h-16">
-          <div class="flex items-center">
-            <div class="flex-shrink-0">
-              <img class="h-10" src={DXlogo2} alt="Logo"></img>
-            </div>
-            <div class="hidden md:block">
-              <div class="ml-10 flex items-baseline space-x-4">
-                <a href="#" class="text-black  hover:text-[#029202] px-3 py-2 rounded-lg text-sm font-medium">
-                  Beranda
-                </a>
-                <a href="#" class="text-black  hover:text-[#029202] px-3 py-2 rounded-lg text-sm font-medium">
-                  Tentang
-                </a>
-                <a href="#" class="text-black  hover:text-[#029202] px-3 py-2 rounded-lg text-sm font-medium">
-                  Layanan
-                </a>
-                <a href="./Login/loginform.html" class="text-black  hover:text-[#029202] px-3 py-2 rounded-lg text-sm font-medium">
-                  Login
-                </a>
-              </div>
-            </div>
+  const navigate = useNavigate();
+  return (<>
+      <div className="px py-3 bg-bg flex items-center justify-between">
+          <img src={DXlogo3} alt="Logo" width="60"></img>
+          <div className="flex">
+              <button onClick={() => navigate("login")} className="text-white px-5 py-2 bg-emerald-800 shadow-xl hover:bg-emerald-700 rounded-lg text-sm font-medium">Login</button>
           </div>
-          <div class="hidden md:block">
-            <div class="ml-4 flex items-center md:ml-6">
-            </div>
-          </div>
-        </div>
       </div>
+    </>
   );
 }
-
 export default Navbar;

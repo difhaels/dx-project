@@ -1,12 +1,11 @@
 import DXlogo2 from "./img/logo/DX-logo-1.png";
 function Navbar() {
-  
-  return(
+  return (
       <div class="px">
         <div class="flex items-center justify-between h-16">
           <div class="flex items-center">
             <div class="flex-shrink-0">
-              <img class="h-10 " src={DXlogo2} alt="Logo"></img>
+              <img class="h-10" src={DXlogo2} alt="Logo"></img>
             </div>
             <div class="hidden md:block">
               <div class="ml-10 flex items-baseline space-x-4">

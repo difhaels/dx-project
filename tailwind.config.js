@@ -20,7 +20,12 @@ module.exports = {
       "3xl": "1630px",
       // => @media (min-width: 1570px) { ... }
     },
-    extend: {},
+    extend: {
+      colors: {
+        bg: "#ABC4AA",
+        text: "#5C8984",
+      },
+    },
   },
   plugins: [],
 };

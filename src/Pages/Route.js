@@ -2,15 +2,15 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Home";
 
 // menu import
-import Family from "../Menu/Family";
-import Graduation from "../Menu/Graduation";
-import Group from "../Menu/Group";
-import Wedding from "../Menu/Wedding";
-import Pet from "../Menu/Pet";
-import Etc from "../Menu/Etc";
-import OurTeam from "../Menu/Ourteam";
-import Login from "../Menu/Login&Register/Login";
-import Reg from "../Menu/Login&Register/Register";
+import Family from "../components/Menu/Family";
+import Graduation from "../components/Menu/Graduation";
+import Group from "../components/Menu/Group";
+import Wedding from "../components/Menu/Wedding";
+import Pet from "../components/Menu/Pet";
+import Etc from "../components/Menu/Etc";
+import OurTeam from "../components/Menu/Ourteam";
+import Login from "../components/Menu/Login&Register/Login";
+import Reg from "../components/Menu/Login&Register/Register";
 
 const App = () => {
   return (

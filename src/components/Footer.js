@@ -1,4 +1,4 @@
-import DXlogo2 from "./img/logo/DX-logo-3.png";
+import DXlogo2 from "./img/logo/Logo.png";
 
 export default function Footer() {
   return (
@@ -82,9 +82,9 @@ export default function Footer() {
         </div>
 
         <div className="flex justify-center pt-14">
-          <h1>Determinix 2023</h1>
+          <h1>Created by Determinix 2023</h1>
         </div>
       </div>
-    </>  
+    </>
   );
 }

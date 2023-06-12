@@ -1,4 +1,4 @@
-import DXlogo3 from './img/logo/DX-logo-3.png';
+import DXlogo3 from './img/logo/Logo.png';
 import { useNavigate } from "react-router-dom"
 function Navbar() {
   const navigate = useNavigate();

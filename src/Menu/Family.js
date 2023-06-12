@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-import img3 from "./img/family/img3.jpg";
+import img3 from "./img/img1.jpg"
 
 const Family = () => {
   const navigate = useNavigate();

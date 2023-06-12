@@ -1,4 +1,4 @@
-import DXlogo2 from "./img/logo/DX-logo-3.png";
+import DXlogo2 from "./img/logo/Logo.png";
 
 export default function Footer() {
   return (

@@ -1,6 +1,9 @@
 import { useNavigate } from "react-router-dom";
 
-import img3 from "./img/img1.jpg"
+import family1 from "./img/family1.jpg"
+import graduation1 from "./img/graduation1.jpg"
+import group1 from "./img/group1.jpg"
+import wedding1 from "./img/wedding1.jpg"
 
 const Etc = () => {
   const navigate = useNavigate();
@@ -9,12 +12,10 @@ const Etc = () => {
       <div className="px py-10 bg-slate-100">
         <h1 className="font-bold text-2xl text-center pb-10">Etc</h1>
         <div className="flex flex-wrap justify-center gap-7 sm:gap-14 pb-10">
-          <img src={img3} alt="img-gallery" className="h-[300px] w-[420px] border-[15px] border-b-[40px] border-stone-50 shadow-2xl" />
-          <img src={img3} alt="img-gallery" className="h-[300px] w-[420px] border-[15px] border-b-[40px] border-stone-50 shadow-2xl" />
-          <img src={img3} alt="img-gallery" className="h-[300px] w-[420px] border-[15px] border-b-[40px] border-stone-50 shadow-2xl" />
-          <img src={img3} alt="img-gallery" className="h-[300px] w-[420px] border-[15px] border-b-[40px] border-stone-50 shadow-2xl" />
-          <img src={img3} alt="img-gallery" className="h-[300px] w-[420px] border-[15px] border-b-[40px] border-stone-50 shadow-2xl" />
-          <img src={img3} alt="img-gallery" className="h-[300px] w-[420px] border-[15px] border-b-[40px] border-stone-50 shadow-2xl" />
+          <img src={family1} alt="img-gallery" className="h-[300px] w-[420px] border-[15px] border-b-[40px] border-stone-50 shadow-2xl" />
+          <img src={graduation1} alt="img-gallery" className="h-[300px] w-[420px] border-[15px] border-b-[40px] border-stone-50 shadow-2xl" />
+          <img src={group1} alt="img-gallery" className="h-[300px] w-[420px] border-[15px] border-b-[40px] border-stone-50 shadow-2xl" />
+          <img src={wedding1} alt="img-gallery" className="h-[300px] w-[420px] border-[15px] border-b-[40px] border-stone-50 shadow-2xl" />
         </div>
         <div>
           <h1 className="font-bold text-2xl text-center py-10">Paket penjualan</h1>

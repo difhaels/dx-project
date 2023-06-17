@@ -1,6 +1,9 @@
 import slide1 from './img/section1/slide1.jpg';
 import slide2 from './img/section1/slide2.jpg';
 import slide3 from './img/section1/slide3.jpg';
+import slide4 from './img/section1/slide4.jpg';
+import slide5 from './img/section1/slide5.jpg';
+
 // import Swiper core and required modules
 import { Autoplay, Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -38,10 +41,10 @@ function Section1() {
             <img src={slide3} className="xl:h-[400px] rounded-3xl mx-auto" alt="slide3" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={slide1} className="xl:h-[400px] rounded-3xl mx-auto" alt="slide4" />
+            <img src={slide4} className="xl:h-[400px] rounded-3xl mx-auto" alt="slide4" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={slide1} className="xl:h-[400px] rounded-3xl mx-auto" alt="slide5" />
+            <img src={slide5} className="xl:h-[400px] rounded-3xl mx-auto" alt="slide5" />
           </SwiperSlide>
         </Swiper>
         <button className="text-center my-5 px-3 py-2 bg-bg text-text rounded-lg hover:text-white" onClick={() => {navigate("register")}}>Daftar Member</button>

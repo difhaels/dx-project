@@ -1,6 +1,6 @@
-import slide1 from './img/section1/slide1.jpg';
+import slide1 from './img/section1/slide 1.png';
 import slide2 from './img/section1/slide2.jpg';
-import slide3 from './img/section1/slide3.jpg';
+import slide3 from './img/section1/slide 3.png';
 import slide4 from './img/section1/slide4.jpg';
 import slide5 from './img/section1/slide5.jpg';
 
@@ -14,13 +14,14 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import 'swiper/css/autoplay';
 
-import { useNavigate } from "react-router-dom"
+import { useNavigate } from 'react-router-dom';
 
 import './css/section1.css';
 
 function Section1() {
   const navigate = useNavigate();
-  return (<>
+  return (
+    <>
       <div className="px bg-slate-100 flex flex-col items-center py-14">
         <h1 className="py-5 text-bg font-serif font-semibold">Jasa foto pernikahan dan event</h1>
         <Swiper
@@ -47,7 +48,14 @@ function Section1() {
             <img src={slide5} className="xl:h-[400px] rounded-3xl mx-auto" alt="slide5" />
           </SwiperSlide>
         </Swiper>
-        <button className="text-center my-5 px-3 py-2 bg-bg text-text rounded-lg hover:text-white" onClick={() => {navigate("register")}}>Daftar Member</button>
+        <button
+          className="text-center my-5 px-3 py-2 bg-bg text-text rounded-lg hover:text-white"
+          onClick={() => {
+            navigate('register');
+          }}
+        >
+          Daftar Member
+        </button>
       </div>
     </>
   );

@@ -1,9 +1,9 @@
 import { useNavigate } from "react-router-dom";
 
-import graduation1 from "./img/graduation1.jpg"
-import graduation2 from "./img/graduation2.jpg"
-import graduation3 from "./img/graduation3.jpg"
-import graduation4 from "./img/graduation4.jpg"
+import graduation1 from "./img/graduation1.jpg";
+import graduation2 from "./img/graduation2.jpg";
+import graduation3 from "./img/graduation3.jpg";
+import graduation4 from "./img/graduation4.jpg";
 
 const Graduation = () => {
   const navigate = useNavigate();
@@ -18,7 +18,50 @@ const Graduation = () => {
           <img src={graduation4} alt="img-gallery" className="h-[300px] w-[420px] border-[15px] border-b-[40px] border-stone-50 shadow-2xl" />
         </div>
         <div>
-          <h1 className="font-bold text-2xl text-center py-10">Paket penjualan</h1>
+          <h1 className="font-bold text-3xl text-center py-10">Paket penjualan</h1>
+        </div>
+
+        <div className="flex flex-wrap gap-6 justify-center  ">
+          <div className=" text-center shadow-lg">
+            <div className="bg-slate-400  rounded-t-xl py-6 px-32 text-white ">
+              <h1 className="font-bold text-2xl mb-2">Family</h1>
+              <p>Paket Reguler</p>
+            </div>
+            <div className="bg-[#F9F5F6]  rounded-b-lg">
+              <h1 className="pt-3">
+                Rp.<span className="text-4xl">550</span>.000
+              </h1>
+              <p className="mt-4">30 Menit Pemrotetan</p>
+              <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+              <p className="mt-4">30 Menit Pemrotetan</p>
+              <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+              <p className="mt-4">30 Menit Pemrotetan</p>
+              <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+              <p className="mt-4 pb-10">30 Menit Pemrotetan</p>
+            </div>
+            <button className="px-5 py-2 bg-bg rounded-md mb-5 text-text hover:text-white">Book Now!!</button>
+            <p className="pb-5 text-text">Make ur Different Moment</p>
+          </div>
+          <div className=" text-center shadow-lg">
+            <div className="bg-slate-400  rounded-t-xl py-6 px-32 text-white ">
+              <h1 className="font-bold text-2xl mb-2">Family</h1>
+              <p>Paket Reguler</p>
+            </div>
+            <div className="bg-[#F9F5F6]  rounded-b-lg">
+              <h1 className="pt-3">
+                Rp.<span className="text-4xl">550</span>.000
+              </h1>
+              <p className="mt-4">30 Menit Pemrotetan</p>
+              <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+              <p className="mt-4">30 Menit Pemrotetan</p>
+              <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+              <p className="mt-4">30 Menit Pemrotetan</p>
+              <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+              <p className="mt-4 pb-10">30 Menit Pemrotetan</p>
+            </div>
+            <button className="px-5 py-2 bg-bg rounded-md mb-5 text-text hover:text-white">Book Now!!</button>
+            <p className="pb-5 text-text">Make ur Different Moment</p>
+          </div>
         </div>
         <div className="flex justify-center">
           <button onClick={() => navigate("/")} className="bg-bg px-4 py-2 mt-5 rounded-md hover:text-white">

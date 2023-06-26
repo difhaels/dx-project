@@ -43,10 +43,10 @@ export default function Footer() {
           <div className="block">
             <h1 className="font-bold text-text">PORTFOLIO</h1>
             <a className="block hover:text-text" href="https://difhaels.github.io/" target={"_blank"} rel="noreferrer">
-              Difhaels
+              Agung Saputra
             </a>
             <a className="block hover:text-text" href="https://hy-grou.github.io/" target={"_blank"} rel="noreferrer">
-              Grouu
+              Aru Chevy
             </a>
             <h1 className="font-bold pt-2 text-text">GITHUB</h1>
             <a className="block hover:text-text" href="https://github.com/difhaels" target={"_blank"} rel="noreferrer">

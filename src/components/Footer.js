@@ -57,6 +57,9 @@ export default function Footer() {
             <a className="block hover:text-text" href="https://github.com/hy-grou" target={"_blank"} rel="noreferrer">
               hy-grouu
             </a>
+            <a className="block hover:text-text" href="https://github.com/Wsnuhrtno" target={"_blank"} rel="noreferrer">
+              Wsnuhrtno
+            </a>
             <div className="mt-4">
               <button className="px-4 py-1.5 rounded-lg justify-center bg-text hover:text-bg " onClick={() => navigate("/our-team")}>
                 Our Team

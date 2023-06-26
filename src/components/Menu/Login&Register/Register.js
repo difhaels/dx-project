@@ -10,7 +10,7 @@ function Register() {
         <div className="w-full max-w-lg bg-white rounded-lg shadow-lg">
             <div className="flex justify-between items-center px-4 py-2">
             <h1 className="text-2xl font-bold">Registrasi Member</h1>
-            <button onClick={() => navigate('/')} className="px-2 py-1 w-10"><img className="hover:opacity-75" src={close}></img></button>
+            <button onClick={() => navigate('/')} className="px-2 py-1 w-10"><img alt="close" className="hover:opacity-75" src={close}></img></button>
             </div>
             <hr />
             <div className="px-6 py-4">

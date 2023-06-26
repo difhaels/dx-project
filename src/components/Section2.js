@@ -20,21 +20,21 @@ function Section2() {
           <div className="border-[3px] sm:border-[5px] border-white m-3 rounded-xl group hover:border-[#E3F4F4]" onClick={() => navigate('family')}>
             <div className="border-green-600 border-[2px] sm:border-4 bg-white rounded-xl group-hover:bg-bg">
               <img className="h-[50px] sm:h-[90px] px-5 pt-3" src={Family} alt="family"/>
-              <h1 className="pb-3 text-[10px] sm:text-lg font-bold pt-1 font-mono text-slate-950 group-hover:text-text">Family</h1>
+              <h1 className="cursor-default pb-3 text-[10px] sm:text-lg font-bold pt-1 font-mono text-slate-950 group-hover:text-text">Family</h1>
             </div>
           </div>
 
           <div className="border-[3px] sm:border-[5px] border-white m-3 rounded-xl group hover:border-[#E3F4F4]" onClick={() => navigate('graduation')}>
             <div className="border-green-600 border-[2px] sm:border-4 bg-white rounded-xl group-hover:bg-bg">
               <img className="h-[50px] sm:h-[90px] px-5 pt-3" src={Graduation} alt="graduation"/>
-              <h1 className="pb-3 text-[10px] sm:text-lg font-bold pt-1 font-mono text-slate-950 group-hover:text-text">Graduation</h1>
+              <h1 className="cursor-default pb-3 text-[10px] sm:text-lg font-bold pt-1 font-mono text-slate-950 group-hover:text-text">Graduation</h1>
             </div>
           </div>
 
           <div className="border-[3px] sm:border-[5px] border-white m-3 rounded-xl group hover:border-[#E3F4F4]" onClick={() => navigate('group')}>
             <div className="border-green-600 border-[2px] sm:border-4 bg-white rounded-xl group-hover:bg-bg">
               <img className="h-[50px] sm:h-[90px] px-5 pt-3" src={Group} alt="group"/>
-              <h1 className="pb-3 text-[10px] sm:text-lg font-bold pt-1 font-mono text-slate-950 group-hover:text-text">Group</h1>
+              <h1 className="cursor-default pb-3 text-[10px] sm:text-lg font-bold pt-1 font-mono text-slate-950 group-hover:text-text">Group</h1>
             </div>
           </div>
           
@@ -45,21 +45,21 @@ function Section2() {
           <div className="border-[3px] sm:border-[5px] border-white m-3 rounded-xl group hover:border-[#E3F4F4]" onClick={() => navigate('wedding')}>
             <div className="border-green-600 border-[2px] sm:border-4 bg-white rounded-xl group-hover:bg-bg">
               <img className="h-[50px] sm:h-[90px] px-5 pt-3" src={Wedding} alt="wedding"/>
-              <h1 className="pb-3 text-[10px] sm:text-lg font-bold pt-1 font-mono text-slate-950 group-hover:text-text">Wedding</h1>
+              <h1 className="cursor-default pb-3 text-[10px] sm:text-lg font-bold pt-1 font-mono text-slate-950 group-hover:text-text">Wedding</h1>
             </div>
           </div>
 
           <div className="border-[3px] sm:border-[5px] border-white m-3 rounded-xl group hover:border-[#E3F4F4]" onClick={() => navigate('pet')}>
             <div className="border-green-600 border-[2px] sm:border-4 bg-white rounded-xl group-hover:bg-bg">
               <img className="h-[50px] sm:h-[90px] px-5 pt-3" src={Pet} alt="pet" />
-              <h1 className="pb-3 text-[10px] sm:text-lg font-bold pt-1 font-mono text-slate-950 group-hover:text-text">Pet</h1>
+              <h1 className="cursor-default pb-3 text-[10px] sm:text-lg font-bold pt-1 font-mono text-slate-950 group-hover:text-text">Pet</h1>
             </div>
           </div>
 
           <div className="border-[3px] sm:border-[5px] border-white m-3 rounded-xl group hover:border-[#E3F4F4]" onClick={() => navigate('etc')}>
             <div className="border-green-600 border-[2px] sm:border-4 bg-white rounded-xl group-hover:bg-bg">
               <img className="h-[50px] sm:h-[90px] px-5 pt-3" src={Etc} alt="etc"/>
-              <h1 className="pb-3 text-[10px] sm:text-lg font-bold pt-1 font-mono text-slate-950 group-hover:text-text">Etc</h1>
+              <h1 className="cursor-default pb-3 text-[10px] sm:text-lg font-bold pt-1 font-mono text-slate-950 group-hover:text-text">Etc</h1>
             </div>
           </div>
 

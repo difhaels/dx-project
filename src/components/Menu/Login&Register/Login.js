@@ -1,3 +1,4 @@
+import close from "../../img/icon/cancel.png"
 import { useNavigate } from "react-router-dom"
 
 function Login() {
@@ -9,7 +10,7 @@ function Login() {
         <div className="w-full max-w-lg bg-white rounded-lg shadow-lg">
           <div className="flex justify-between items-center px-4 py-2">
             <h1 className="text-2xl font-bold">Login</h1>
-            <button onClick={() => navigate('/')} className="text-white bg-black hover:bg-gray-800 inline-block rounded-full px-2 py-1 text-xs">X</button>
+            <button onClick={() => navigate('/')} className="px-2 py-1 w-10"><img className="hover:opacity-75" src={close}></img></button>
           </div>
           <hr />
           <div className="px-6 py-4">

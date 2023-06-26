@@ -64,7 +64,7 @@ const Etc = () => {
           </div>
         </div>
         <div className="flex justify-center">
-          <button onClick={() => navigate("/")} className="bg-bg px-4 py-2 mt-5 rounded-md hover:text-white">
+          <button onClick={() => navigate("/")} className="bg-bg px-4 py-2  mt-10 rounded-md text-text hover:text-white">
             Back to Home
           </button>
         </div>

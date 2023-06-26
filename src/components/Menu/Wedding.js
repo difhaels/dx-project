@@ -53,7 +53,7 @@ const Wedding = () => {
             </div>
             <div className="bg-[#F9F5F6]  rounded-b-lg">
               <h1 className="pt-3">
-                Rp.<span className="text-4xl">1.899</span>.000
+                Rp.<span className="text-4xl">1.999</span>.000
               </h1>
               <p className="mt-4">2 Fotografer dan Asisten</p>
               <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>

@@ -36,10 +36,10 @@ function Section1() {
             <img src={slide1} className="xl:h-[400px] rounded-3xl mx-auto" alt="slide1" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={slide2} className="xl:h-[400px] rounded-3xl mx-auto" alt="slide2" />
+            <img src={slide3} className="xl:h-[400px] rounded-3xl mx-auto" alt="slide3" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={slide3} className="xl:h-[400px] rounded-3xl mx-auto" alt="slide3" />
+            <img src={slide2} className="xl:h-[400px] rounded-3xl mx-auto" alt="slide2" />
           </SwiperSlide>
           <SwiperSlide>
             <img src={slide4} className="xl:h-[400px] rounded-3xl mx-auto" alt="slide4" />

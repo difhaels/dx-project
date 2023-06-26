@@ -1,6 +1,8 @@
+import { useNavigate } from "react-router-dom";
 import DXlogo2 from "./img/logo/Logo.png";
 
 export default function Footer() {
+  const navigate = useNavigate();
   return (
     <>
       <div className="px justify-between bg-[#ABC4AA] text-white sm:py-14">
@@ -55,6 +57,11 @@ export default function Footer() {
             <a className="block hover:text-text" href="https://github.com/hy-grou" target={"_blank"} rel="noreferrer">
               hy-grouu
             </a>
+            <div className="mt-4">
+              <button className="px-4 py-1.5 rounded-lg justify-center bg-text hover:text-bg " onClick={() => navigate("/our-team")}>
+                Our Team
+              </button>
+            </div>
           </div>
         </div>
 

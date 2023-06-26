@@ -29,7 +29,7 @@ const Pet = () => {
             </div>
             <div className="  rounded-b-lg">
               <h1 className="pt-3">
-                Rp.<span className="text-4xl">150</span>.000
+                Rp.<span className="text-4xl">139</span>.000
               </h1>
               <p className="mt-4">30 Menit Pemrotetan</p>
               <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
@@ -51,7 +51,7 @@ const Pet = () => {
             </div>
             <div className="rounded-b-lg">
               <h1 className="pt-3">
-                Rp.<span className="text-4xl">250</span>.000
+                Rp.<span className="text-4xl">199</span>.000
               </h1>
               <p className="mt-4">50 Menit Pemrotetan</p>
               <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>

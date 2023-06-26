@@ -29,7 +29,7 @@ const Group = () => {
             </div>
             <div className="bg-[#F9F5F6]  rounded-b-lg">
               <h1 className="pt-3">
-                Rp.<span className="text-4xl">250</span>.000
+                Rp.<span className="text-4xl">249</span>.000
               </h1>
               <p className="mt-4">40 Menit Pemrotetan</p>
               <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
@@ -51,7 +51,7 @@ const Group = () => {
             </div>
             <div className="bg-[#F9F5F6]  rounded-b-lg">
               <h1 className="pt-3">
-                Rp.<span className="text-4xl">350</span>.000
+                Rp.<span className="text-4xl">349</span>.000
               </h1>
               <p className="mt-4">1 Jam Pemrotetan</p>
               <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>

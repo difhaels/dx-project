@@ -22,42 +22,46 @@ const Group = () => {
         </div>
 
         <div className="flex flex-wrap gap-6 justify-center  ">
-          <div className=" text-center shadow-lg">
-            <div className="bg-slate-400  rounded-t-xl py-6 px-32 text-white ">
-              <h1 className="font-bold text-2xl mb-2">Family</h1>
+          <div className=" text-center shadow-lg bg-[#F9F5F6] rounded-lg">
+            <div className="bg-slate-400  rounded-t-xl py-6 px-36 text-white ">
+              <h1 className="font-bold text-2xl mb-2">Group</h1>
               <p>Paket Reguler</p>
             </div>
             <div className="bg-[#F9F5F6]  rounded-b-lg">
               <h1 className="pt-3">
-                Rp.<span className="text-4xl">550</span>.000
+                Rp.<span className="text-4xl">249</span>.000
               </h1>
-              <p className="mt-4">30 Menit Pemrotetan</p>
+              <p className="mt-4">40 Menit Pemrotetan</p>
               <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
-              <p className="mt-4">30 Menit Pemrotetan</p>
+              <p className="mt-4">Unlimitied photoshoot</p>
               <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
-              <p className="mt-4">30 Menit Pemrotetan</p>
+              <p className="mt-4">Maks. 10 orang (Charge 25.000/orang)</p>
               <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
-              <p className="mt-4 pb-10">30 Menit Pemrotetan</p>
+              <p className="mt-4 ">1 Background</p>
+              <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+              <p className="mt-4 pb-10">All file copy ke HP/Google Drive</p>
             </div>
             <button className="px-5 py-2 bg-bg rounded-md mb-5 text-text hover:text-white">Book Now!!</button>
             <p className="pb-5 text-text">Make ur Different Moment</p>
           </div>
-          <div className=" text-center shadow-lg">
-            <div className="bg-slate-400  rounded-t-xl py-6 px-32 text-white ">
-              <h1 className="font-bold text-2xl mb-2">Family</h1>
-              <p>Paket Reguler</p>
+          <div className=" text-center shadow-lg bg-[#F9F5F6] rounded-lg">
+            <div className="bg-slate-400  rounded-t-xl py-6 px-36 text-white ">
+              <h1 className="font-bold text-2xl mb-2">Group</h1>
+              <p>Paket Eksklusif</p>
             </div>
             <div className="bg-[#F9F5F6]  rounded-b-lg">
               <h1 className="pt-3">
-                Rp.<span className="text-4xl">550</span>.000
+                Rp.<span className="text-4xl">349</span>.000
               </h1>
-              <p className="mt-4">30 Menit Pemrotetan</p>
+              <p className="mt-4">1 Jam Pemrotetan</p>
               <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
-              <p className="mt-4">30 Menit Pemrotetan</p>
+              <p className="mt-4">Unlimitied photoshoot</p>
               <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
-              <p className="mt-4">30 Menit Pemrotetan</p>
+              <p className="mt-4">Maks. 15 orang (Charge 25.000/orang)</p>
               <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
-              <p className="mt-4 pb-10">30 Menit Pemrotetan</p>
+              <p className="mt-4 ">2 Background</p>
+              <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+              <p className="mt-4 pb-10">All file copy ke HP/Google Drive</p>
             </div>
             <button className="px-5 py-2 bg-bg rounded-md mb-5 text-text hover:text-white">Book Now!!</button>
             <p className="pb-5 text-text">Make ur Different Moment</p>

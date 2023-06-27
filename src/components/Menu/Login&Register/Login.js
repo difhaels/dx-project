@@ -1,26 +1,8 @@
-import { useState } from "react";
 import close from "../../img/icon/cancel.png"
 import { useNavigate } from "react-router-dom"
-import axios from "axios";
-import { response } from "express";
 
 function Login() {
   const navigate = useNavigate();
-
-  const [email, setEmail] = useState('');
-  const [pswd, setPassword] = useState('');
-
-  const submit = () => {
-    const url = "http://localhost/Login.php";
-
-    let fData = new FormData();
-    fData.append('email', email);
-    fData.append('password', pswd);
-
-    axios.post(url, fData)
-    .then(response=> alert(response.data))
-    .catch(error=> alert(error));
-  }
 
   return (
     <div className="bg-[#ABC4AA] min-h-screen flex items-center justify-center">
@@ -32,8 +14,8 @@ function Login() {
           </div>
           <hr />
           <div className="px-6 py-4">
-            <input type="text" placeholder="Email" name="email" required className="w-full px-4 py-2 rounded-lg bg-gray-200 mb-4" value={email} onChange={(e) => setEmail(e.target.value)}/>
-            <input type="password" placeholder="Password" name="pswd" required className="w-full px-4 py-2 rounded-lg bg-gray-200 mb-4" value={pswd} onChange={(e) => setPassword(e.target.value)}/>
+            <input type="text" placeholder="Email" name="email" required className="w-full px-4 py-2 rounded-lg bg-gray-200 mb-4" />
+            <input type="password" placeholder="Password" name="pswd" required className="w-full px-4 py-2 rounded-lg bg-gray-200 mb-4" />
             <label className="flex items-center">
               <input type="checkbox" className="form-checkbox" />
               <span className="ml-2 text-sm">Remember</span>

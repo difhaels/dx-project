@@ -72,7 +72,7 @@ const Graduation = () => {
           <div className=" text-center shadow-lg bg-[#F9F5F6] rounded-lg member hidden">
             <div className="bg-orange-500  rounded-t-xl py-6 px-32 text-white ">
               <h1 className="font-bold text-2xl mb-2">Graduation</h1>
-              <p>Paket Eksklusif</p>
+              <p>Paket Khusus Member</p>
             </div>
             <div className="bg-[#F9F5F6]  rounded-b-lg">
               <h1 className="pt-3">

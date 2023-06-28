@@ -6,10 +6,10 @@ export default function Footer() {
   return (
     <>
       <div className="px justify-between bg-[#ABC4AA] text-white sm:py-14">
-        <div className="hidden xl:flex justify-center">
+        <div className="hidden xl:flex justify center">
           <div className="my-9 mr-52">
             <a href="https://difhaels.github.io/determinix " target={"_blank"} rel="noreferrer">
-              <img className="hover:origin-[33%_75%]" src={DXlogo2} width="120" alt="dx" />
+              <img className="sm:pt-10" src={DXlogo2} width="120" alt="dx" />
             </a>
           </div>
           <div className="block mr-40">
@@ -29,9 +29,7 @@ export default function Footer() {
             <a className="block hover:text-text" href="https://reactjs.org/" target={"_blank"} rel="noreferrer">
               ReactJS
             </a>
-          </div>
-          <div className="block mr-32">
-            <h1 className="font-bold text-text">RELATED</h1>
+            <h1 className="font-bold text-text pt-2">RELATED</h1>
             <a className="block hover:text-text" href="https://www.unas.ac.id/" target={"_blank"} rel="noreferrer">
               Universitas Nasional
             </a>
@@ -42,15 +40,8 @@ export default function Footer() {
               Teknologi
             </a>
           </div>
-          <div className="block">
-            <h1 className="font-bold text-text">PORTFOLIO</h1>
-            <a className="block hover:text-text" href="https://difhaels.github.io/" target={"_blank"} rel="noreferrer">
-              Agung Saputra
-            </a>
-            <a className="block hover:text-text" href="https://hy-grou.github.io/" target={"_blank"} rel="noreferrer">
-              Aru Chevy
-            </a>
-            <h1 className="font-bold pt-2 text-text">GITHUB</h1>
+          <div className="block mr-32">
+            <h1 className="font-bold  text-text">GITHUB</h1>
             <a className="block hover:text-text" href="https://github.com/difhaels" target={"_blank"} rel="noreferrer">
               Difhaels
             </a>
@@ -60,17 +51,66 @@ export default function Footer() {
             <a className="block hover:text-text" href="https://github.com/Wsnuhrtno" target={"_blank"} rel="noreferrer">
               Wsnuhrtno
             </a>
-            <div className="mt-4">
+            <a className="block hover:text-text" href="https://github.com/YuraraYura" target={"_blank"} rel="noreferrer">
+              YuraraYura
+            </a>
+            <a className="block hover:text-text" href="https://github.com/SvX555" target={"_blank"} rel="noreferrer">
+              SvX555
+            </a>
+            <a className="block hover:text-text" href="https://github.com/Adhanzo" target={"_blank"} rel="noreferrer">
+              Adhanzo
+            </a>
+            <a className="block hover:text-text" href="https://github.com/dRainShades" target={"_blank"} rel="noreferrer">
+              dRainShades
+            </a>
+            <a className="block hover:text-text" href="https://github.com/Aligatorrok" target={"_blank"} rel="noreferrer">
+              Aligatorrok
+            </a>
+            <a className="block hover:text-text" href="https://github.com/DarkZone07" target={"_blank"} rel="noreferrer">
+              DarkZone07
+            </a>
+          </div>
+          <div className="block">
+            <h1 className="font-bold text-text">PORTFOLIO</h1>
+            <a className="block hover:text-text" href="https://difhaels.github.io/" target={"_blank"} rel="noreferrer">
+              Agung Saputra
+            </a>
+            <a className="block hover:text-text" href="https://hy-grou.github.io/" target={"_blank"} rel="noreferrer">
+              Aru Chevy
+            </a>
+            <a className="block hover:text-text" href="https://Wsnuhrtno.github.io/" target={"_blank"} rel="noreferrer">
+              Wisnu Hartono
+            </a>
+            <a className="block hover:text-text" href="https://yurarayura.github.io/" target={"_blank"} rel="noreferrer">
+              Albi Fahri
+            </a>
+            <a className="block hover:text-text" href="https://SvX555.github.io/" target={"_blank"} rel="noreferrer">
+              Krisna Setyo
+            </a>
+            <a className="block hover:text-text" href="https://dRainShades.github.io/" target={"_blank"} rel="noreferrer">
+              Dian Rivanno
+            </a>
+            <a className="block hover:text-text" href="https://Aligatorrok.github.io/" target={"_blank"} rel="noreferrer">
+              Beni Maryana
+            </a>
+            <a className="block hover:text-text" href="https://Adhanzo.github.io/" target={"_blank"} rel="noreferrer">
+              Adhan
+            </a>
+            <a className="block hover:text-text" href="https://DarkZone07.github.io/" target={"_blank"} rel="noreferrer">
+              Tubagus
+            </a>
+
+            {/* <div className="mt-4">
               <button className="px-4 py-1.5 rounded-lg justify-center bg-text hover:text-bg " onClick={() => navigate("/our-team")}>
                 Our Team
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
 
-        <div className="mx-auto my-10 w-[90%] h-[0.5px] bg-white hidden xl:flex"></div>
+        <div className="mx-auto my-5 w-[90%] h-[0.5px] bg-white hidden xl:flex"></div>
 
-        <div className="flex  justify-center gap-6 py-10 sm:py-0">
+        {/* <div className="flex  justify-center gap-6 py-10 sm:py-0">
           <a href="https://wa.me/" target="_blank" rel="noreferrer">
             <svg role="img" width="40" className="fill-current hover:text-text " viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <title>WhatsApp</title>
@@ -89,9 +129,16 @@ export default function Footer() {
               <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
             </svg>
           </a>
+        </div> */}
+        <div className="flex justify-center">
+          <div className="mt-4">
+            <button className="px-6 py-4 rounded-lg justify-center font-bold text-xl bg-text text-bg hover:text-white " onClick={() => navigate("/our-team")}>
+              Our Team
+            </button>
+          </div>
         </div>
 
-        <div className="flex justify-center pt-14">
+        <div className="flex justify-center pt-10 pb-10 text-text">
           <h1>Created by Determinix 2023</h1>
         </div>
       </div>

@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <>
       <div className="px justify-between bg-[#ABC4AA] text-white sm:py-14">
-        <div className="sm:flex hidden  justify center">
+        <div className=" hidden lg:block lg:flex sm:hidden md:flex md:block justify center">
           <div className="my-9 mr-52 xl:block md:hidden">
             <a href="https://difhaels.github.io/determinix " target={"_blank"} rel="noreferrer">
               <img src={DXlogo2} width="120" alt="dx" />
@@ -73,25 +73,25 @@ export default function Footer() {
           <div className="block">
             <h1 className="font-bold text-text">PORTFOLIO</h1>
             <a className="block hover:text-text" href="https://difhaels.github.io/" target={"_blank"} rel="noreferrer">
-              Agung
+              Agung Saputra
             </a>
             <a className="block hover:text-text" href="https://hy-grou.github.io/" target={"_blank"} rel="noreferrer">
-              Aruu
+              Aru Chevy
             </a>
             <a className="block hover:text-text" href="https://Wsnuhrtno.github.io/" target={"_blank"} rel="noreferrer">
-              Wisnu
+              Wisnu Hartono
             </a>
             <a className="block hover:text-text" href="https://yurarayura.github.io/" target={"_blank"} rel="noreferrer">
-              Albi
+              Albi Fahri
             </a>
             <a className="block hover:text-text" href="https://SvX555.github.io/" target={"_blank"} rel="noreferrer">
-              Krisna
+              Krisna Setyo
             </a>
             <a className="block hover:text-text" href="https://dRainShades.github.io/" target={"_blank"} rel="noreferrer">
-              Dian
+              Dian Rivanno
             </a>
             <a className="block hover:text-text" href="https://Aligatorrok.github.io/" target={"_blank"} rel="noreferrer">
-              Beni
+              Beni Maryana
             </a>
             <a className="block hover:text-text" href="https://Adhanzo.github.io/" target={"_blank"} rel="noreferrer">
               Adhan
@@ -108,7 +108,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mx-auto my-5 w-[90%] h-[0.5px] bg-white hidden sm:flex"></div>
+        <div className="mx-auto my-5 w-[90%] h-[0.5px] bg-white hidden lg:block md:block sm:flex sm:hidden"></div>
 
         {/* <div className="flex  justify-center gap-6 py-10 sm:py-0">
           <a href="https://wa.me/" target="_blank" rel="noreferrer">

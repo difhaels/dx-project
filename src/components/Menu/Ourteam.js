@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import aru from "./img/profil/foto-aru.jpeg";
-import wisnu from "./img/profil/inu.jpg";
+// import wisnu from "./img/profil/inu.jpg";
 
 const OurTeam = () => {
   const navigate = useNavigate();
@@ -51,7 +51,7 @@ const OurTeam = () => {
           </div>
 
           <div className="mt-10 bg-bg px-3 py-5 rounded-lg shadow-xl text-text ">
-            <img src={wisnu} className="w-[150px] rounded-lg" />
+            <img src={aru} className="w-[150px] rounded-lg" />
             <p className="text-center pt-1 font-bold">Wisnu Hartono</p>
             <div className="flex justify-center">
               <a className="bg-text px-3 py-2 mt-2 rounded-md text-bg shadow-2xl hover:text-white" href="https://www.instagram.com/wsnuhrtno_._/" target="_blank">

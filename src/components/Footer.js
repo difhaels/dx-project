@@ -6,10 +6,10 @@ export default function Footer() {
   return (
     <>
       <div className="px justify-between bg-[#ABC4AA] text-white sm:py-14">
-        <div className="hidden xl:flex justify center">
-          <div className="my-9 mr-52">
+        <div className="sm:flex hidden  justify center">
+          <div className="my-9 mr-52 xl:block md:hidden">
             <a href="https://difhaels.github.io/determinix " target={"_blank"} rel="noreferrer">
-              <img className="sm:pt-10" src={DXlogo2} width="120" alt="dx" />
+              <img src={DXlogo2} width="120" alt="dx" />
             </a>
           </div>
           <div className="block mr-40">
@@ -73,25 +73,25 @@ export default function Footer() {
           <div className="block">
             <h1 className="font-bold text-text">PORTFOLIO</h1>
             <a className="block hover:text-text" href="https://difhaels.github.io/" target={"_blank"} rel="noreferrer">
-              Agung Saputra
+              Agung
             </a>
             <a className="block hover:text-text" href="https://hy-grou.github.io/" target={"_blank"} rel="noreferrer">
-              Aru Chevy
+              Aruu
             </a>
             <a className="block hover:text-text" href="https://Wsnuhrtno.github.io/" target={"_blank"} rel="noreferrer">
-              Wisnu Hartono
+              Wisnu
             </a>
             <a className="block hover:text-text" href="https://yurarayura.github.io/" target={"_blank"} rel="noreferrer">
-              Albi Fahri
+              Albi
             </a>
             <a className="block hover:text-text" href="https://SvX555.github.io/" target={"_blank"} rel="noreferrer">
-              Krisna Setyo
+              Krisna
             </a>
             <a className="block hover:text-text" href="https://dRainShades.github.io/" target={"_blank"} rel="noreferrer">
-              Dian Rivanno
+              Dian
             </a>
             <a className="block hover:text-text" href="https://Aligatorrok.github.io/" target={"_blank"} rel="noreferrer">
-              Beni Maryana
+              Beni
             </a>
             <a className="block hover:text-text" href="https://Adhanzo.github.io/" target={"_blank"} rel="noreferrer">
               Adhan
@@ -108,7 +108,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mx-auto my-5 w-[90%] h-[0.5px] bg-white hidden xl:flex"></div>
+        <div className="mx-auto my-5 w-[90%] h-[0.5px] bg-white hidden sm:flex"></div>
 
         {/* <div className="flex  justify-center gap-6 py-10 sm:py-0">
           <a href="https://wa.me/" target="_blank" rel="noreferrer">

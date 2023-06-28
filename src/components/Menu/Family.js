@@ -70,11 +70,11 @@ const Family = () => {
           <div className=" text-center shadow-lg bg-[#F9F5F6] rounded-lg member hidden">
             <div className="bg-orange-400  rounded-t-xl py-6 px-36 text-white ">
               <h1 className="font-bold text-2xl mb-2">Family</h1>
-              <p>Paket Eksklusif</p>
+              <p>Paket Khusus Member</p>
             </div>
             <div className="bg-[#F9F5F6]  rounded-b-lg">
               <h1 className="pt-3">
-                Rp.<span className="text-4xl">249</span>.000
+                Rp.<span className="text-4xl">199</span>.000
               </h1>
               <p className="mt-4">50 Menit Pemrotetan</p>
               <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>

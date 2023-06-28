@@ -21,7 +21,8 @@ const Pet = () => {
           <h1 className="font-bold text-3xl text-center py-10">Paket penjualan</h1>
         </div>
 
-        <div className="flex flex-wrap gap-6 justify-center   ">
+        <div className="flex flex-wrap gap-6 justify-center">
+
           <div className=" text-center shadow-lg bg-[#F9F5F6] rounded-lg">
             <div className="bg-slate-400  rounded-t-xl py-6 px-36 text-white ">
               <h1 className="font-bold text-2xl mb-2">Pet</h1>
@@ -37,13 +38,12 @@ const Pet = () => {
               <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
               <p className="mt-4">Maks. 1 Hewan (Charge 20.000/hewan)</p>
               <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
-              <p className="mt-4 ">1 Background</p>
-              <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
               <p className="mt-4 pb-10">All file copy ke HP/Google Drive</p>
             </div>
             <button className="px-5 py-2 bg-bg rounded-md mb-5 text-text hover:text-white">Book Now!!</button>
             <p className="pb-5 text-text">Make ur Different Moment</p>
           </div>
+
           <div className=" text-center shadow-lg bg-[#F9F5F6] rounded-lg">
             <div className="bg-slate-400  rounded-t-xl py-6 px-36 text-white ">
               <h1 className="font-bold text-2xl mb-2">Pet</h1>
@@ -59,17 +59,47 @@ const Pet = () => {
               <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
               <p className="mt-4">Maks. 3 Hewan (Charge 20.000/hewan)</p>
               <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
-              <p className="mt-4 ">2 Background</p>
+              <p className="mt-4 pb-10">All file copy ke HP/Google Drive</p>
+            </div>
+            <button className="px-5 py-2 bg-bg rounded-md mb-5 text-text hover:text-white">Book Now!!</button>
+            <p className="pb-5 text-text">Make ur Different Moment</p>
+          </div>
+          
+          <div className=" text-center shadow-lg bg-[#F9F5F6] rounded-lg member hidden">
+            <div className="bg-orange-500  rounded-t-xl py-6 px-36 text-white ">
+              <h1 className="font-bold text-2xl mb-2">Pet</h1>
+              <p>Paket Khusus Member</p>
+            </div>
+            <div className="rounded-b-lg">
+              <h1 className="pt-3">
+                Rp.<span className="text-4xl">139</span>.000
+              </h1>
+              <p className="mt-4">50 Menit Pemrotetan</p>
+              <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+              <p className="mt-4">Unlimitied photoshoot</p>
+              <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+              <p className="mt-4">Maks. 3 Hewan (Charge 20.000/hewan)</p>
               <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
               <p className="mt-4 pb-10">All file copy ke HP/Google Drive</p>
             </div>
             <button className="px-5 py-2 bg-bg rounded-md mb-5 text-text hover:text-white">Book Now!!</button>
             <p className="pb-5 text-text">Make ur Different Moment</p>
           </div>
+
         </div>
+
         <div className="flex justify-center">
           <button onClick={() => navigate("/")} className="bg-bg px-4 py-2 mt-10 rounded-md text-text hover:text-white">
             Back to Home
+          </button>
+          <button
+            onClick={() => {
+              const member = document.querySelector(".member");
+              member.classList.toggle("hidden");
+            }}
+            className="bg-bg px-4 py-2 mt-10 rounded-md text-text hover:text-white"
+          >
+            toggle
           </button>
         </div>
       </div>

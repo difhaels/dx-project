@@ -6,8 +6,8 @@ export default function Footer() {
   return (
     <>
       <div className="px justify-between bg-[#ABC4AA] text-white sm:py-14">
-        <div className="hidden md:flex justify center">
-          <div className="my-9 ml-20 mr-52">
+        <div className="hidden 2xl:flex justify center">
+          <div className="my-9 ml-20 lg:mr-52">
             <a href="https://difhaels.github.io/determinix " target={"_blank"} rel="noreferrer">
               <img className="sm:pt-10" src={DXlogo2} width="120" alt="dx" />
             </a>
@@ -104,14 +104,12 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mx-auto my-5 w-[90%] h-[0.5px] bg-white hidden md:block"></div>
+        <div className="mx-auto my-5 w-[90%] h-[0.5px] bg-white hidden 2xl:block"></div>
 
         <div className="flex justify-center">
-          <div className="mt-4">
-            <button className="px-6 py-4 rounded-lg justify-center font-bold text-xl bg-text text-bg hover:text-white " onClick={() => navigate("/our-team")}>
+            <button className="mt-10 2xl:mt-6 px-6 py-4 rounded-lg justify-center font-bold text-xl bg-text text-bg hover:text-white " onClick={() => navigate("/our-team")}>
               Our Team
             </button>
-          </div>
         </div>
 
         <div className="flex justify-center pt-10 pb-10 text-text">

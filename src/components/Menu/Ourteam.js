@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import aru from "./img/profil/foto-aru.jpeg";
-// import wisnu from "./img/profil/inu.jpg";
+import wisnu from "./img/profil/inu.jpg";
 
 const OurTeam = () => {
   const navigate = useNavigate();

@@ -103,8 +103,8 @@ function loginSubmit(){
               }
             </p>
             <div className="px-6 py-4">
-              <input type="text" placeholder="Username" name="username" required value={username} onChange={(e) => handleInputChange(e, "username")} className="w-full px-4 py-2 rounded-lg bg-gray-200 mb-4" />
-              <input type="password" placeholder="Password" name="password" required value={password} onChange={(e) => handleInputChange(e, "password")} className="w-full px-4 py-2 rounded-lg bg-gray-200 mb-4" />
+              <input type="text" placeholder="Username" name="username" value={username} onChange={(e) => handleInputChange(e, "username")} className="logister-input" />
+              <input type="password" placeholder="Password" name="password" value={password} onChange={(e) => handleInputChange(e, "password")} className="logister-input" />
               <button type="submit" name="login" defaultValue="Login" onClick={loginSubmit} className="bg-blue-500 text-white hover:bg-blue-400 px-4 py-2 rounded-lg w-full mb-4">Login</button>
               <p className="text-sm">Belum punya akun? <button onClick={() => navigate('../register')} className="text-blue-500 border-none">Daftar Disini</button></p>
             </div>

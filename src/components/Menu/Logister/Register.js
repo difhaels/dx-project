@@ -1,4 +1,4 @@
-import close from "../../img/icon/cancel.png"
+import close from "./cancel.png"
 import { useNavigate } from "react-router-dom"
 
 function Register() {

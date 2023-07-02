@@ -9,8 +9,8 @@ import Wedding from "../components/Menu/Wedding";
 import Pet from "../components/Menu/Pet";
 import Etc from "../components/Menu/Etc";
 import OurTeam from "../components/Menu/Ourteam";
-import Login from "../components/Menu/Login&Register/Login";
-import Reg from "../components/Menu/Login&Register/Register";
+import Login from "../components/Menu/Logister/Login";
+import Register from "../components/Menu/Logister/Register";
 
 const App = () => {
   return (
@@ -19,7 +19,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         {/* Login & Register start*/}
         <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Reg />} />
+        <Route path="/register" element={<Register />} />
         {/* Login & Register end*/}
 
         {/* Section 2 pindah halaman start */}

@@ -10,6 +10,7 @@ function Register() {
   const [notlp, setNotlp] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [password2, setPassword2] = useState('');
 
   const handleSubmit = () => {
     if(username.length === 0){
@@ -20,6 +21,8 @@ function Register() {
       alert("Email tidak boleh kosong!");
     } else  if (password.length === 0){
       alert("Password tidak boleh kosong!");
+    } else if (password !== password2) { 
+      alert ("Kesalahan dalam konfirmasi password");
     } else {
       const url = "http://localhost/enquiry.php";
 
@@ -49,7 +52,7 @@ function Register() {
               <input type="text" placeholder="Nomor Telepon" name="notlp" required value={notlp} onChange={(e) => setNotlp(e.target.value)} className="w-full px-4 py-2 rounded-lg bg-gray-200 mb-4" />
               <input type="text" placeholder="Email" name="email" required value={email} onChange={(e) => setEmail(e.target.value)} className="w-full px-4 py-2 rounded-lg bg-gray-200 mb-4" />
               <input type="password" placeholder="Password" name="password" required value={password} onChange={(e) => setPassword(e.target.value)} className="w-full px-4 py-2 rounded-lg bg-gray-200 mb-4" />
-              <input type="password" placeholder="Confirm Password" name="password2" required className="w-full px-4 py-2 rounded-lg bg-gray-200 mb-4" />
+              <input type="password" placeholder="Confirm Password" name="password2" required value={password2} onChange={(e) => setPassword2(e.target.value)} className="w-full px-4 py-2 rounded-lg bg-gray-200 mb-4" />
               <button type="button" name="send" id="send" value="SEND" onClick={handleSubmit} className="bg-blue-500 text-white px-4 py-2 rounded-lg w-full mb-4">Daftar</button>
               <p className="text-sm">Sudah Punya Akun? <button onClick={() => navigate('../login')} className="text-blue-500">Login Disini</button></p>
               </div>

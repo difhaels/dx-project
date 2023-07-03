@@ -7,6 +7,7 @@ import wedding4 from "./img/wedding4.jpg";
 
 const Wedding = () => {
   const navigate = useNavigate();
+  const storedUsername = localStorage.getItem("username");
   return (
     <>
       <div className="px py-10 bg-slate-100">
@@ -44,7 +45,9 @@ const Wedding = () => {
               <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
               <p className="mt-4 pb-4">1 Flashdisk</p>
             </div>
-            <button className="px-5 py-2 bg-bg rounded-md mb-5 text-text hover:text-white">Book Now!!</button>
+            <a href="https://www.youtube.com/" target="_blank">
+              <button className="px-5 py-2 bg-bg rounded-md mb-5 text-text hover:text-white" >Book Now!!</button>
+            </a>
             <p className="pb-5 text-text">Make ur Different Moment</p>
           </div>
 
@@ -71,51 +74,48 @@ const Wedding = () => {
               <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
               <p className="mt-4 pb-4 ">1 Flashdisk</p>
             </div>
-            <button className="px-5 py-2 bg-bg rounded-md mb-5 text-text hover:text-white">Book Now!!</button>
+            <a href="https://www.youtube.com/" target="_blank">
+              <button className="px-5 py-2 bg-bg rounded-md mb-5 text-text hover:text-white" >Book Now!!</button>
+            </a>
             <p className="pb-5 text-text">Make ur Different Moment</p>
           </div>
 
-          <div className=" text-center shadow-lg bg-[#F9F5F6] rounded-lg member hidden">
-            <div className="bg-orange-500  rounded-t-xl py-6 px-32 text-white ">
-              <h1 className="font-bold text-2xl mb-2">Wedding</h1>
-              <p>Paket Khusus Member</p>
-            </div>
-            <div className="bg-[#F9F5F6]  rounded-b-lg">
-              <h1 className="pt-3">
-                Rp.<span className="text-4xl">1.899</span>.000
-              </h1>
-              <p className="mt-4">2 Fotografer dan Asisten</p>
-              <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
-              <p className="mt-4">1 Hari Pemrotetan</p>
-              <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
-              <p className="mt-4">+-8 Jam Kerja</p>
-              <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
-              <p className="mt-4 ">Unlimited Photo</p>
-              <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
-              <p className="mt-4 ">Album Magazine 20x30cm (20 Halaman)</p>
-              <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
-              <p className="mt-4 ">Album Magnetic Custom (80 Foto 4r)</p>
-              <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
-              <p className="mt-4 pb-4 ">1 Flashdisk</p>
-            </div>
-            <button className="px-5 py-2 bg-bg rounded-md mb-5 text-text hover:text-white">Book Now!!</button>
-            <p className="pb-5 text-text">Make ur Different Moment</p>
-          </div>
-          
+          {storedUsername !== "undefined" || undefined? 
+            <div className=" text-center shadow-lg bg-[#F9F5F6] rounded-lg">
+              <div className="bg-orange-500  rounded-t-xl py-6 px-32 text-white ">
+                <h1 className="font-bold text-2xl mb-2">Wedding</h1>
+                <p>Paket Khusus Member</p>
+              </div>
+              <div className="bg-[#F9F5F6]  rounded-b-lg">
+                <h1 className="pt-3">
+                  Rp.<span className="text-4xl">1.899</span>.000
+                </h1>
+                <p className="mt-4">2 Fotografer dan Asisten</p>
+                <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+                <p className="mt-4">1 Hari Pemrotetan</p>
+                <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+                <p className="mt-4">+-8 Jam Kerja</p>
+                <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+                <p className="mt-4 ">Unlimited Photo</p>
+                <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+                <p className="mt-4 ">Album Magazine 20x30cm (20 Halaman)</p>
+                <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+                <p className="mt-4 ">Album Magnetic Custom (80 Foto 4r)</p>
+                <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+                <p className="mt-4 pb-4 ">1 Flashdisk</p>
+              </div>
+              <a href="https://fitgirl-repacks.to/" target="_blank">
+                <button className="px-5 py-2 bg-bg rounded-md mb-5 text-text hover:text-white" >Book Now!!</button>
+              </a>
+              <p className="pb-5 text-text">Make ur Different Moment</p>
+            </div>:
+            <div></div>  
+          }
         </div>
 
         <div className="flex justify-center">
           <button onClick={() => navigate("/")} className="bg-bg px-4 py-2 mt-10 rounded-md text-text hover:text-white">
             Back to Home
-          </button>
-          <button
-            onClick={() => {
-              const member = document.querySelector(".member");
-              member.classList.toggle("hidden");
-            }}
-            className="bg-bg px-4 py-2 mt-10 rounded-md text-text hover:text-white"
-          >
-            toggle
           </button>
         </div>
       </div>

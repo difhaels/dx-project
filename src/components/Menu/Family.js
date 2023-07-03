@@ -8,7 +8,6 @@ import family4 from "./img/family4.jpg";
 const Family = () => {
   const navigate = useNavigate();
   const storedUsername = localStorage.getItem("username");
-  console.log(storedUsername)
 
   return (
     <>

@@ -9,6 +9,7 @@ import etc4 from "./img/etc4.jpg";
 
 const Etc = () => {
   const navigate = useNavigate();
+  const storedUsername = localStorage.getItem("username");
   return (
     <>
       <div className="px py-10 bg-slate-100">
@@ -45,7 +46,9 @@ const Etc = () => {
               <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
               <p className="mt-4 pb-10">All file copy ke HP/Google Drive </p>
             </div>
-            <button className="px-5 py-2 bg-bg rounded-md mb-5 text-text hover:text-white">Book Now!!</button>
+            <a href="https://www.youtube.com/" target="_blank">
+              <button className="px-5 py-2 bg-bg rounded-md mb-5 text-text hover:text-white" >Book Now!!</button>
+            </a>
             <p className="pb-5 text-text">Make ur Different Moment</p>
           </div>
           <div className=" text-center shadow-lg bg-[#F9F5F6] rounded-lg">
@@ -69,7 +72,9 @@ const Etc = () => {
               <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
               <p className="mt-4 pb-10">All file copy ke HP/Google Drive</p>
             </div>
-            <button className="px-5 py-2 bg-bg rounded-md mb-5 text-text hover:text-white">Book Now!!</button>
+            <a href="https://www.youtube.com/" target="_blank">
+              <button className="px-5 py-2 bg-bg rounded-md mb-5 text-text hover:text-white" >Book Now!!</button>
+            </a>
             <p className="pb-5 text-text">Make ur Different Moment</p>
           </div>
         </div>

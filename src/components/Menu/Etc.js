@@ -9,7 +9,6 @@ import etc4 from "./img/etc4.jpg";
 
 const Etc = () => {
   const navigate = useNavigate();
-  const storedUsername = localStorage.getItem("username");
   return (
     <>
       <div className="px py-10 bg-slate-100">
@@ -46,7 +45,7 @@ const Etc = () => {
               <div className="line-paket"></div>
               <p className="mt-4 pb-10">All file copy ke HP/Google Drive </p>
             </div>
-            <a href="https://www.youtube.com/" target="_blank">
+            <a href="https://www.youtube.com/" target="_blank" rel="noreferrer">
               <button className="button-paket" >Book Now!!</button>
             </a>
             <p className="pb-5 text-text">Make ur Different Moment</p>
@@ -72,7 +71,7 @@ const Etc = () => {
               <div className="line-paket"></div>
               <p className="mt-4 pb-10">All file copy ke HP/Google Drive</p>
             </div>
-            <a href="https://www.youtube.com/" target="_blank">
+            <a href="https://www.youtube.com/" target="_blank" rel="noreferrer">
               <button className="button-paket" >Book Now!!</button>
             </a>
             <p className="pb-5 text-text">Make ur Different Moment</p>

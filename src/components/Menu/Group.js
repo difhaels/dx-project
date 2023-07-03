@@ -43,7 +43,7 @@ const Group = () => {
               <div className="line-paket "></div>
               <p className="mt-4 pb-10">All file copy ke HP/Google Drive</p>
             </div>
-            <a href="https://www.youtube.com/" target="_blank">
+            <a href="https://www.youtube.com/" target="_blank" rel="noreferrer">
               <button className="button-paket" >Book Now!!</button>
             </a>
             <p className="pb-5 text-text">Make ur Different Moment</p>
@@ -68,7 +68,7 @@ const Group = () => {
               <div className="line-paket "></div>
               <p className="mt-4 pb-10">All file copy ke HP/Google Drive</p>
             </div>
-            <a href="https://www.youtube.com/" target="_blank">
+            <a href="https://www.youtube.com/" target="_blank" rel="noreferrer">
               <button className="button-paket" >Book Now!!</button>
             </a>
             <p className="pb-5 text-text">Make ur Different Moment</p>
@@ -94,7 +94,7 @@ const Group = () => {
                 <div className="line-paket "></div>
                 <p className="mt-4 pb-10">All file copy ke HP/Google Drive</p>
               </div>
-              <a href="https://fitgirl-repacks.to/" target="_blank">
+              <a href="https://fitgirl-repacks.to/" target="_blank" rel="noreferrer">
                 <button className="button-member" >Book Now!!</button>
               </a>
               <p className="pb-5 text-text">Make ur Different Moment</p>

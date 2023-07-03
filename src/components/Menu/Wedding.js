@@ -34,19 +34,19 @@ const Wedding = () => {
                 Rp.<span className="text-4xl">1.299</span>.000
               </h1>
               <p className="mt-4">1 Fotografer dan Asisten</p>
-              <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+              <div className="line-paket "></div>
               <p className="mt-4">1 Hari Pemrotetan</p>
-              <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+              <div className="line-paket "></div>
               <p className="mt-4">+-8 Jam Kerja</p>
-              <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+              <div className="line-paket "></div>
               <p className="mt-4 ">Unlimited Photo</p>
-              <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+              <div className="line-paket "></div>
               <p className="mt-4 ">Album Magnetic Custom (120 Foto 4r)</p>
-              <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+              <div className="line-paket "></div>
               <p className="mt-4 pb-4">1 Flashdisk</p>
             </div>
             <a href="https://www.youtube.com/" target="_blank">
-              <button className="px-5 py-2 bg-bg rounded-md mb-5 text-text hover:text-white" >Book Now!!</button>
+              <button className="button-paket" >Book Now!!</button>
             </a>
             <p className="pb-5 text-text">Make ur Different Moment</p>
           </div>
@@ -61,21 +61,21 @@ const Wedding = () => {
                 Rp.<span className="text-4xl">1.999</span>.000
               </h1>
               <p className="mt-4">2 Fotografer dan Asisten</p>
-              <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+              <div className="line-paket "></div>
               <p className="mt-4">1 Hari Pemrotetan</p>
-              <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+              <div className="line-paket "></div>
               <p className="mt-4">+-8 Jam Kerja</p>
-              <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+              <div className="line-paket "></div>
               <p className="mt-4 ">Unlimited Photo</p>
-              <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+              <div className="line-paket "></div>
               <p className="mt-4 ">Album Magazine 20x30cm (20 Halaman)</p>
-              <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+              <div className="line-paket "></div>
               <p className="mt-4 ">Album Magnetic Custom (80 Foto 4r)</p>
-              <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+              <div className="line-paket "></div>
               <p className="mt-4 pb-4 ">1 Flashdisk</p>
             </div>
             <a href="https://www.youtube.com/" target="_blank">
-              <button className="px-5 py-2 bg-bg rounded-md mb-5 text-text hover:text-white" >Book Now!!</button>
+              <button className="button-paket" >Book Now!!</button>
             </a>
             <p className="pb-5 text-text">Make ur Different Moment</p>
           </div>
@@ -91,21 +91,21 @@ const Wedding = () => {
                   Rp.<span className="text-4xl">1.899</span>.000
                 </h1>
                 <p className="mt-4">2 Fotografer dan Asisten</p>
-                <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+                <div className="line-paket"></div>
                 <p className="mt-4">1 Hari Pemrotetan</p>
-                <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+                <div className="line-paket"></div>
                 <p className="mt-4">+-8 Jam Kerja</p>
-                <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+                <div className="line-paket"></div>
                 <p className="mt-4 ">Unlimited Photo</p>
-                <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+                <div className="line-paket"></div>
                 <p className="mt-4 ">Album Magazine 20x30cm (20 Halaman)</p>
-                <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+                <div className="line-paket"></div>
                 <p className="mt-4 ">Album Magnetic Custom (80 Foto 4r)</p>
-                <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+                <div className="line-paket"></div>
                 <p className="mt-4 pb-4 ">1 Flashdisk</p>
               </div>
               <a href="https://fitgirl-repacks.to/" target="_blank">
-                <button className="px-5 py-2 bg-bg rounded-md mb-5 text-text hover:text-white" >Book Now!!</button>
+                <button className="button-member" >Book Now!!</button>
               </a>
               <p className="pb-5 text-text">Make ur Different Moment</p>
             </div>:

@@ -35,19 +35,19 @@ const Etc = () => {
                 Rp.<span className="text-4xl">249</span>.000
               </h1>
               <p className="mt-4">1 Fotografer</p>
-              <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+              <div className="line-paket"></div>
               <p className="mt-4">35 Menit Pemrotetan</p>
-              <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+              <div className="line-paket"></div>
               <p className="mt-4">Unlimitied photoshoot</p>
-              <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+              <div className="line-paket"></div>
               <p className="mt-4">Maks. 3 orang/item (Charge 25.000/orang atau item)</p>
-              <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+              <div className="line-paket"></div>
               <p className="mt-4 ">1 Background </p>
-              <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+              <div className="line-paket"></div>
               <p className="mt-4 pb-10">All file copy ke HP/Google Drive </p>
             </div>
             <a href="https://www.youtube.com/" target="_blank">
-              <button className="px-5 py-2 bg-bg rounded-md mb-5 text-text hover:text-white" >Book Now!!</button>
+              <button className="button-paket" >Book Now!!</button>
             </a>
             <p className="pb-5 text-text">Make ur Different Moment</p>
           </div>
@@ -61,19 +61,19 @@ const Etc = () => {
                 Rp.<span className="text-4xl">349</span>.000
               </h1>
               <p className="mt-4">1 Fotografer dan Asisten</p>
-              <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+              <div className="line-paket"></div>
               <p className="mt-4">50 Menit Pemrotetan</p>
-              <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+              <div className="line-paket"></div>
               <p className="mt-4">Unlimitied photoshoot</p>
-              <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+              <div className="line-paket"></div>
               <p className="mt-4">Maks. 7 orang/item (Charge 25.000/orang atau item)</p>
-              <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+              <div className="line-paket"></div>
               <p className="mt-4 ">2 Background</p>
-              <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
+              <div className="line-paket"></div>
               <p className="mt-4 pb-10">All file copy ke HP/Google Drive</p>
             </div>
             <a href="https://www.youtube.com/" target="_blank">
-              <button className="px-5 py-2 bg-bg rounded-md mb-5 text-text hover:text-white" >Book Now!!</button>
+              <button className="button-paket" >Book Now!!</button>
             </a>
             <p className="pb-5 text-text">Make ur Different Moment</p>
           </div>

@@ -2,10 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+/* all start */
 .px {
     @apply px-10 sm:px-20 md:px-32 lg:px-52;
 }
+/* all end */
 
+/* logister start */
 .logister-input {
     @apply w-full px-4 py-2 rounded-lg bg-gray-200 mb-4;
 }
+/* logister end */
+
+/* menu start */
+.line-paket {
+    @apply bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto;
+}
+.button-paket {
+    @apply px-5 py-2 bg-bg rounded-md mb-5 text-text hover:text-white;
+}
+.button-member {
+    @apply px-5 py-2 rounded-md mb-5 bg-orange-500 text-white;
+}
+/* menu end */
+

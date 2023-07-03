@@ -78,7 +78,7 @@ export default function Footer() {
             <a className="block hover:text-text" href="https://hy-grou.github.io/" target={"_blank"} rel="noreferrer">
               Aru Chevy
             </a>
-            <a className="block hover:text-text" href="https://Wsnuhrtno.github.io/" target={"_blank"} rel="noreferrer">
+            <a className="block hover:text-text" href="https://Wsnuhrtno.github.io/Portfolio-Tailwind" target={"_blank"} rel="noreferrer">
               Wisnu Hartono
             </a>
             <a className="block hover:text-text" href="https://yurarayura.github.io/" target={"_blank"} rel="noreferrer">

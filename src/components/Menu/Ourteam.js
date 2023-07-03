@@ -14,8 +14,8 @@ const OurTeam = () => {
             <img alt="profil-1" src={aru} className="w-[150px] h-[150px] rounded-lg" />
             <p className="text-center pt-1 font-bold">Aru Chevy Rasyid</p>
             <div className="flex justify-center">
-              <a className="bg-text px-3 py-2 mt-2 rounded-md text-bg shadow-2xl hover:text-white" href="https://www.instagram.com/aruchvy_/" target="_blank" rel="noreferrer">
-                Social Media
+              <a className="bg-text px-3 py-2 mt-2 rounded-md text-bg shadow-2xl hover:text-white" href="https://hy-grou.github.io/" target="_blank" rel="noreferrer">
+                Portfolio
               </a>
             </div>
           </div>

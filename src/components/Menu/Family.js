@@ -1,4 +1,4 @@
-import { useLocation, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 import family1 from "./img/family1.jpg";
 import family2 from "./img/family2.jpg";
@@ -44,7 +44,9 @@ const Family = () => {
               <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
               <p className="mt-4 pb-10">All file copy ke HP/Google Drive </p>
             </div>
-            <button className="px-5 py-2 bg-bg rounded-md mb-5 text-text hover:text-white">Book Now!!</button>
+            <a href="https://www.youtube.com/" target="_blank">
+              <button className="px-5 py-2 bg-bg rounded-md mb-5 text-text hover:text-white" >Book Now!!</button>
+            </a>
             <p className="pb-5 text-text">Make ur Different Moment</p>
           </div>
           <div className=" text-center shadow-lg bg-[#F9F5F6] rounded-lg">
@@ -66,11 +68,13 @@ const Family = () => {
               <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
               <p className="mt-4 pb-10">All file copy ke HP/Google Drive</p>
             </div>
-            <button className="px-5 py-2 bg-bg rounded-md mb-5 text-text hover:text-white">Book Now!!</button>
+            <a href="https://www.youtube.com/" target="_blank">
+              <button className="px-5 py-2 bg-bg rounded-md mb-5 text-text hover:text-white" >Book Now!!</button>
+            </a>          
             <p className="pb-5 text-text">Make ur Different Moment</p>
           </div>
 
-          {storedUsername !== null? 
+          {storedUsername !== "undefined" || undefined? 
             <div className=" text-center shadow-lg bg-[#F9F5F6] rounded-lg">
             <div className="bg-orange-400  rounded-t-xl py-6 px-36 text-white ">
               <h1 className="font-bold text-2xl mb-2">Family</h1>
@@ -90,10 +94,12 @@ const Family = () => {
               <div className="bg-slate-400 mt-3 py-[1px] w-[80%] mx-auto "></div>
               <p className="mt-4 pb-10">All file copy ke HP/Google Drive</p>
             </div>
-            <button className="px-5 py-2 bg-bg rounded-md mb-5 text-text hover:text-white">Book Now!!</button>
+            <a href="https://fitgirl-repacks.to/" target="_blank">
+              <button className="px-5 py-2 bg-bg rounded-md mb-5 text-text hover:text-white">Book Now!!</button>
+            </a>
             <p className="pb-5 text-text">Make ur Different Moment</p>
             </div> :
-            <div>kosong</div>
+            <div></div>
           }
 
           

@@ -23,7 +23,7 @@ function Login() {
         const data = response.data;
         if (data === "Success!") {
           // Login berhasil, navigasikan pengguna ke halaman beranda
-          navigate("/");
+          navigate("/", {state: {username}});
         } else {
           // Login gagal, tampilkan pesan kesalahan
           setErrorMessage("Username atau password salah");

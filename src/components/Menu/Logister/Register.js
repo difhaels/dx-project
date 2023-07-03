@@ -48,12 +48,55 @@ function Register() {
               </div>
               <hr />
               <div className="px-6 py-4">
-              <input type="text" placeholder="Username" name="username" value={username} onChange={(e) => setUsername(e.target.value)} className="logister-input" />
-              <input type="text" placeholder="Nomor Telepon" name="notlp" value={notlp} onChange={(e) => setNotlp(e.target.value)} className="logister-input" />
-              <input type="text" placeholder="Email" name="email" value={email} onChange={(e) => setEmail(e.target.value)} className="logister-input" />
-              <input type="password" placeholder="Password" name="password" value={password} onChange={(e) => setPassword(e.target.value)} className="logister-input" />
-              <input type="password" placeholder="Confirm Password" name="password2" value={password2} onChange={(e) => setPassword2(e.target.value)} className="logister-input" />
-              <button type="button" name="send" id="send" value="SEND" onClick={handleSubmit} className="bg-blue-500 text-white px-4 py-2 rounded-lg w-full mb-4">Daftar</button>
+              <input 
+                type="text" 
+                placeholder="Username" 
+                name="username" 
+                value={username} 
+                onChange={(e) => 
+                setUsername(e.target.value)} 
+                className="logister-input" 
+              />
+              <input 
+                type="text" 
+                placeholder="Nomor Telepon" 
+                name="notlp" value={notlp} 
+                onChange={(e) => setNotlp(e.target.value)} 
+                className="logister-input" 
+              />
+              <input 
+                type="text" 
+                placeholder="Email" 
+                name="email" 
+                value={email} 
+                onChange={(e) => setEmail(e.target.value)} 
+                className="logister-input" 
+              />
+              <input 
+                type="password" 
+                placeholder="Password" 
+                name="password" 
+                value={password} 
+                onChange={(e) => setPassword(e.target.value)} 
+                className="logister-input" 
+              />
+              <input 
+                type="password" 
+                placeholder="Confirm Password" 
+                name="password2" 
+                value={password2} 
+                onChange={(e) => setPassword2(e.target.value)} className="logister-input" 
+              />
+              <button 
+                type="button" 
+                name="send" 
+                id="send" 
+                value="SEND" 
+                onClick={handleSubmit} 
+                className="bg-blue-500 text-white px-4 py-2 rounded-lg w-full mb-4"
+              >
+                Daftar
+              </button>
               <p className="text-sm">Sudah Punya Akun? <button onClick={() => navigate('../login')} className="text-blue-500">Login Disini</button></p>
               </div>
           </div>

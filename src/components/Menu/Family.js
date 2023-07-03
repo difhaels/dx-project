@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 
 import family1 from "./img/family1.jpg";
 import family2 from "./img/family2.jpg";
@@ -7,6 +7,9 @@ import family4 from "./img/family4.jpg";
 
 const Family = () => {
   const navigate = useNavigate();
+  const storedUsername = localStorage.getItem("username");
+  console.log(storedUsername)
+
   return (
     <>
       <div className="px py-10 bg-slate-100">
@@ -67,7 +70,8 @@ const Family = () => {
             <p className="pb-5 text-text">Make ur Different Moment</p>
           </div>
 
-          <div className=" text-center shadow-lg bg-[#F9F5F6] rounded-lg member hidden">
+          {storedUsername !== null? 
+            <div className=" text-center shadow-lg bg-[#F9F5F6] rounded-lg">
             <div className="bg-orange-400  rounded-t-xl py-6 px-36 text-white ">
               <h1 className="font-bold text-2xl mb-2">Family</h1>
               <p>Paket Khusus Member</p>
@@ -88,21 +92,16 @@ const Family = () => {
             </div>
             <button className="px-5 py-2 bg-bg rounded-md mb-5 text-text hover:text-white">Book Now!!</button>
             <p className="pb-5 text-text">Make ur Different Moment</p>
-          </div>
+            </div> :
+            <div>kosong</div>
+          }
+
+          
         </div>
 
         <div className="flex justify-center">
           <button onClick={() => navigate("/")} className="bg-bg px-4 py-2 mt-10 rounded-md text-text hover:text-white">
             Back to Home
-          </button>
-          <button
-            onClick={() => {
-              const member = document.querySelector(".member");
-              member.classList.toggle("hidden");
-            }}
-            className="bg-bg px-4 py-2 mt-10 rounded-md text-text hover:text-white"
-          >
-            toggle
           </button>
         </div>
       </div>

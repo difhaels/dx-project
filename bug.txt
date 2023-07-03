@@ -1,0 +1,4 @@
+kumpulan bug 
+1. Data login akan hilang jika pindah-pindah halaman
+2. 
+

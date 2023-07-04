@@ -6,6 +6,7 @@ import wedding3 from "./img/wedding3.jpg";
 import wedding4 from "./img/wedding4.jpg";
 
 const Wedding = () => {
+  window.scrollTo(0, 0);
   const navigate = useNavigate();
   const storedUsername = localStorage.getItem("username");
 

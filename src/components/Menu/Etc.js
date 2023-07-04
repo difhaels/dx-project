@@ -6,6 +6,7 @@ import etc3 from "./img/etc3.jpg";
 import etc4 from "./img/etc4.jpg";
 
 const Etc = () => {
+  window.scrollTo(0, 0);
   const navigate = useNavigate();
 
   const paket = {

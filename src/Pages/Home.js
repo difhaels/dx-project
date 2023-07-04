@@ -8,6 +8,7 @@ import Section5 from "../components/Section5";
 // import Pesan from "../components/Pesan";
 
 const Home = () => {
+    window.scrollTo(0, 0);
     return (
         <>
             <Navbar />

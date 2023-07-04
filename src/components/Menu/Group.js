@@ -6,6 +6,7 @@ import group3 from "./img/group3.jpg";
 import group4 from "./img/group4.jpg";
 
 const Group = () => {
+  window.scrollTo(0, 0);
   const navigate = useNavigate();
   const storedUsername = localStorage.getItem("username");
   const paket = {

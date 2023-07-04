@@ -3,6 +3,7 @@ import aru from "./img/profil/foto-aru.jpeg";
 import wisnu from "./img/profil/inu.jpg";
 
 const OurTeam = () => {
+  window.scrollTo(0, 0);
   const navigate = useNavigate();
   return (
     <>

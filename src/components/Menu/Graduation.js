@@ -6,6 +6,7 @@ import graduation3 from "./img/graduation3.jpg";
 import graduation4 from "./img/graduation4.jpg";
 
 const Graduation = () => {
+  window.scrollTo(0, 0);
   const navigate = useNavigate();
   const storedUsername = localStorage.getItem("username");
 

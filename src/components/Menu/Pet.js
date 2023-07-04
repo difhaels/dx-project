@@ -6,6 +6,7 @@ import pet3 from "./img/pet3.jpg";
 import pet4 from "./img/pet4.jpg";
 
 const Pet = () => {
+  window.scrollTo(0, 0);
   const navigate = useNavigate();
   const storedUsername = localStorage.getItem("username");
 

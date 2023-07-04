@@ -34,7 +34,7 @@
     @apply border-green-600 border-[2px] sm:border-4 bg-white rounded-xl group-hover:bg-bg;
 }
 .s2-gambar {
-    @apply h-[50px] sm:h-[90px] px-5 pt-3;
+    @apply h-[40px] sm:h-[90px] px-5 pt-3;
 }
 .s2-text {
     @apply cursor-default pb-3 text-[10px] sm:text-lg font-bold pt-1 font-mono text-slate-950 group-hover:text-text;

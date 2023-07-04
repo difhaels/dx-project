@@ -88,13 +88,13 @@ export default function Footer() {
               Krisna Setyo
             </a>
             <a className="block hover:text-text" href="https://dRainShades.github.io/" target={"_blank"} rel="noreferrer">
-              Dian Rivanno
+              Adhan
             </a>
             <a className="block hover:text-text" href="https://Aligatorrok.github.io/" target={"_blank"} rel="noreferrer">
-              Beni Maryana
+              Dian Rivanno
             </a>
             <a className="block hover:text-text" href="https://Adhanzo.github.io/" target={"_blank"} rel="noreferrer">
-              Adhan
+              Beni Maryana
             </a>
             <a className="block hover:text-text" href="https://DarkZone07.github.io/" target={"_blank"} rel="noreferrer">
               Tubagus

@@ -8,6 +8,18 @@ import pet4 from "./img/pet4.jpg";
 const Pet = () => {
   const navigate = useNavigate();
   const storedUsername = localStorage.getItem("username");
+
+  const paket = {
+    nama: "Pet",
+    jenis: ["Reguler", "Eksklusif", "Member"],
+    harga: ["139.000", "199.000", "139.000"]
+  }
+
+  function text (nama, jenis, harga){
+    let pesan = `Checkout,%20${nama}%20Paket%20${jenis}%20Rp.${harga},-`;
+    return pesan;
+  }
+
   return (
     <>
       <div className="px py-10 bg-slate-100">
@@ -41,7 +53,7 @@ const Pet = () => {
               <div className="line-paket"></div>
               <p className="mt-4 pb-10">All file copy ke HP/Google Drive</p>
             </div>
-            <a href="https://www.youtube.com/" target="_blank" rel="noreferrer">
+            <a href={"http://wa.me/+62895337305533?text=" + text(paket.nama, paket.jenis[0], paket.harga[0])} target="_blank" rel="noreferrer">
               <button className="button-paket" >Book Now!!</button>
             </a>
             <p className="pb-5 text-text">Make ur Different Moment</p>
@@ -64,7 +76,7 @@ const Pet = () => {
               <div className="line-paket"></div>
               <p className="mt-4 pb-10">All file copy ke HP/Google Drive</p>
             </div>
-            <a href="https://www.youtube.com/" target="_blank" rel="noreferrer">
+            <a href={"http://wa.me/+62895337305533?text=" + text(paket.nama, paket.jenis[1], paket.harga[1])} target="_blank" rel="noreferrer">
               <button className="button-paket" >Book Now!!</button>
             </a>
             <p className="pb-5 text-text">Make ur Different Moment</p>
@@ -88,7 +100,7 @@ const Pet = () => {
                 <div className="line-paket"></div>
                 <p className="mt-4 pb-10">All file copy ke HP/Google Drive</p>
               </div>
-              <a href="https://fitgirl-repacks.to/" target="_blank" rel="noreferrer">
+              <a href={"http://wa.me/+62895337305533?text=" + text(paket.nama, paket.jenis[2], paket.harga[2])} target="_blank" rel="noreferrer">
                 <button className="button-member" >Book Now!!</button>
               </a>
               <p className="pb-5 text-text">Make ur Different Moment</p>

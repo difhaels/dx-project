@@ -20,8 +20,6 @@ const Family = () => {
     return pesan;
   }
 
-  const dumb = "http://wa.me/+62895337305533?text=" + text(paket.nama, paket.jenis[0], paket.harga[0]);
-  console.log(dumb)
   return (
     <>
       <div className="px py-10 bg-slate-100">

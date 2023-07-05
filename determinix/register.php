@@ -2,6 +2,8 @@
 	Database menggunakan xampp
 	1. taro folder determinix di htdocs
 	2. run apache dan database pada xampp cpanel
+
+    isi database ("id(default = kosong)", "usernamae", "password", "notlp", "email")
 -->
 
 <?php

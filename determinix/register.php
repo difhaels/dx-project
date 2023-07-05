@@ -26,6 +26,9 @@ if (mysqli_connect_error()) {
 		return false;
 	}
 
+	// enkripsi password
+	$password = password_hash($password, PASSWORD_DEFAULT);
+
 	$sql = "INSERT INTO user VALUES('', '$username','$password','$notlp','$email');";
 	$res = mysqli_query($conn, $sql);
 

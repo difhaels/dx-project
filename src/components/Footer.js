@@ -106,7 +106,7 @@ export default function Footer() {
 
         <div className="flex justify-center">
           <div className="mt-4">
-            <button className="px-6 py-4 rounded-lg justify-center font-bold text-xl bg-text text-bg hover:text-white " onClick={() => navigate("/our-team")}>
+            <button className="shadow-xl px-6 py-4 rounded-lg justify-center font-bold text-xl bg-text text-bg hover:text-white " onClick={() => navigate("/our-team")}>
               Our Team
             </button>
           </div>

@@ -2,6 +2,8 @@
 	Database menggunakan xampp
 	1. taro folder determinix di htdocs
 	2. run apache dan database pada xampp cpanel
+
+    isi database ("id(default = kosong)", "usernamae", "password", "notlp", "email")
 -->
 
 <?php
@@ -25,6 +27,9 @@ if (mysqli_connect_error()) {
 		echo "Username telah digunakan!";
 		return false;
 	}
+
+	// enkripsi password
+	$password = password_hash($password, PASSWORD_DEFAULT);
 
 	$sql = "INSERT INTO user VALUES('', '$username','$password','$notlp','$email');";
 	$res = mysqli_query($conn, $sql);

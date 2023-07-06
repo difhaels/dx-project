@@ -24,7 +24,7 @@ function Register() {
     } else if (password !== password2) { 
       alert ("Kesalahan dalam konfirmasi password");
     } else {
-      const url = "http://localhost/determinix/register.php";
+      const url = "https://dxphotograph.000webhostapp.com/register.php";
 
       let fdata = new FormData();
       fdata.append('username',username);

@@ -16,7 +16,7 @@ const OurTeam = () => {
       <div className="px-2 2xl:px-40 3xl:px-48 lg:px-28 md:px">
         <h1 className="text-center font-bold text-2xl mt-5">Our Team</h1>
 
-        <div className="flex flex-wrap justify-center gap-3">
+        <div className="flex flex-wrap justify-center gap-2">
           <div className="mt-10 bg-bg px-3 py-5 rounded-lg shadow-xl text-text ">
             <img alt="profil-1" src={aru} className="w-[150px] h-[150px] rounded-lg" />
             <p className="text-center pt-1 font-bold">Aru Chevy Rasyid</p>

@@ -46,7 +46,7 @@ const OurTeam = () => {
             <img alt="profil-4" src={adhan} className="w-[150px] h-[150px] rounded-lg" />
             <p className="text-center pt-1 font-bold">Chandra HR</p>
             <div className="flex justify-center">
-              <a className="bg-text px-3 py-2 mt-2 rounded-md text-bg shadow-2xl hover:text-white" href="https://www.instagram.com/adhnzo_/" target="_blank" rel="noreferrer">
+              <a className="bg-text px-3 py-2 mt-2 rounded-md text-bg shadow-2xl hover:text-white" href="https://www.youtube.com/@dhanzo2910/featured/" target="_blank" rel="noreferrer">
                 Social Media
               </a>
             </div>

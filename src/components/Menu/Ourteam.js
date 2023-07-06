@@ -1,5 +1,7 @@
-import { useNavigate } from "react-router-dom";
-import aru from "./img/profil/aru.jpg";
+import { useNavigate } from 'react-router-dom';
+import aru from './img/profil/foto-aru.jpeg';
+import wisnu from './img/profil/inu.jpg';
+import adhan from './img/profil/adhann.png';
 import wisnu from "./img/profil/wisnu.jpg";
 import tubagus from "./img/profil/tubagus.jpg";
 import dian from "./img/profil/Dian.jpg";
@@ -48,10 +50,10 @@ const OurTeam = () => {
           </div>
 
           <div className="mt-10 bg-bg px-3 py-5 rounded-lg shadow-xl text-text ">
-            <img alt="profil-4" src={aru} className="w-[150px] h-[150px] rounded-lg" />
-            <p className="text-center pt-1 font-bold">Aru Chevy Rasyid</p>
+            <img alt="profil-4" src={adhan} className="w-[150px] h-[150px] rounded-lg" />
+            <p className="text-center pt-1 font-bold">Chandra HR</p>
             <div className="flex justify-center">
-              <a className="bg-text px-3 py-2 mt-2 rounded-md text-bg shadow-2xl hover:text-white" href="https://www.instagram.com/aruchvy_/" target="_blank" rel="noreferrer">
+              <a className="bg-text px-3 py-2 mt-2 rounded-md text-bg shadow-2xl hover:text-white" href="https://www.youtube.com/@dhanzo2910/featured/" target="_blank" rel="noreferrer">
                 Social Media
               </a>
             </div>
@@ -109,7 +111,7 @@ const OurTeam = () => {
         </div>
 
         <div className="flex justify-center text-text m-20">
-          <button onClick={() => navigate("/")} className="bg-bg px-4 py-2 mt-9 rounded-md hover:text-white ">
+          <button onClick={() => navigate('/')} className="bg-bg px-4 py-2 mt-9 rounded-md hover:text-white ">
             Back to Home
           </button>
         </div>

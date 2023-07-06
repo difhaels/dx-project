@@ -13,7 +13,7 @@ const OurTeam = () => {
   const navigate = useNavigate();
   return (
     <>
-      <div className="px-2 lg:px-20 md:px">
+      <div className="px-2 2xl:px-40 3xl:px-48 lg:px-28 md:px">
         <h1 className="text-center font-bold text-2xl mt-5">Our Team</h1>
 
         <div className="flex flex-wrap justify-center gap-3">

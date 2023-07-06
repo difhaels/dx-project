@@ -2,13 +2,13 @@ import { useNavigate } from 'react-router-dom';
 import aru from './img/profil/foto-aru.jpeg';
 import wisnu from './img/profil/inu.jpg';
 import adhan from './img/profil/adhann.png';
-import wisnu from "./img/profil/wisnu.jpg";
-import tubagus from "./img/profil/tubagus.jpg";
-import dian from "./img/profil/Dian.jpg";
-import beni from "./img/profil/beni.jpg";
-import krisna from "./img/profil/krisna.jpg";
-import albi from "./img/profil/albi.jpg";
-import agung from "./img/profil/agung.jpg";
+import wisnu from './img/profil/wisnu.jpg';
+import tubagus from './img/profil/tubagus.jpg';
+import dian from './img/profil/Dian.jpg';
+import beni from './img/profil/beni.jpg';
+import krisna from './img/profil/krisna.jpg';
+import albi from './img/profil/albi.jpg';
+import agung from './img/profil/agung.jpg';
 
 const OurTeam = () => {
   window.scrollTo(0, 0);

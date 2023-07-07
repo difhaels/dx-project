@@ -6,7 +6,7 @@ import family3 from "./img/family3.jpg";
 import family4 from "./img/family4.jpg";
 
 const Family = () => {
-  window.scrollTo(0, 0);
+  // window.scrollTo(0, 0);
   const navigate = useNavigate();
   const storedUsername = localStorage.getItem("username");
 
@@ -35,9 +35,9 @@ const Family = () => {
           <h1 className="font-bold text-3xl text-center py-10">Paket penjualan</h1>
         </div>
 
-        <div className="flex flex-wrap gap-6 justify-center  ">
-          <div className=" text-center shadow-lg bg-[#F9F5F6] rounded-lg">
-            <div className="bg-slate-400  rounded-t-xl py-6 px-36 text-white ">
+        <div className="flex flex-wrap gap-6 justify-center">
+          <div className="text-center shadow-lg bg-[#F9F5F6] rounded-lg w-96">
+            <div className="bg-slate-400  rounded-t-xl py-6 text-white ">
               <h1 className="font-bold text-2xl mb-2">Family</h1>
               <p>Paket Reguler</p>
             </div>
@@ -60,8 +60,8 @@ const Family = () => {
             </a>
             <p className="pb-5 text-text">Make ur Different Moment</p>
           </div>
-          <div className=" text-center shadow-lg bg-[#F9F5F6] rounded-lg">
-            <div className="bg-slate-400  rounded-t-xl py-6 px-36 text-white ">
+          <div className=" text-center shadow-lg bg-[#F9F5F6] rounded-lg w-96">
+            <div className="bg-slate-400  rounded-t-xl py-6 text-white ">
               <h1 className="font-bold text-2xl mb-2">Family</h1>
               <p>Paket Eksklusif</p>
             </div>

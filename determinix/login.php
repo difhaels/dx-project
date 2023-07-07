@@ -10,7 +10,7 @@ if (mysqli_connect_error()) {
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    $sql = "SELECT * FROM user WHERE username = '$username'";
+    $sql = "SELECT * FROM user WHERE username = '$username' AND password = '$password'";
     $result = mysqli_query($conn, $sql);
 
     // password_verify($password, $row["password"])

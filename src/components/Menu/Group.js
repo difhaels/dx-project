@@ -33,10 +33,10 @@ const Group = () => {
           <h1 className="font-bold text-3xl text-center py-10">Paket penjualan</h1>
         </div>
 
-        <div className="flex flex-wrap gap-6 justify-center  ">
+        <div className="flex flex-wrap gap-6 justify-center">
 
-          <div className=" text-center shadow-lg bg-[#F9F5F6] rounded-lg">
-            <div className="bg-slate-400  rounded-t-xl py-6 px-36 text-white ">
+          <div className=" text-center shadow-lg bg-[#F9F5F6] rounded-lg w-96">
+            <div className="bg-slate-400  rounded-t-xl py-6 text-white ">
               <h1 className="font-bold text-2xl mb-2">Group</h1>
               <p>Paket Reguler</p>
             </div>
@@ -60,8 +60,8 @@ const Group = () => {
             <p className="pb-5 text-text">Make ur Different Moment</p>
           </div>
 
-          <div className=" text-center shadow-lg bg-[#F9F5F6] rounded-lg">
-            <div className="bg-slate-400  rounded-t-xl py-6 px-36 text-white ">
+          <div className=" text-center shadow-lg bg-[#F9F5F6] rounded-lg w-96">
+            <div className="bg-slate-400  rounded-t-xl py-6 text-white ">
               <h1 className="font-bold text-2xl mb-2">Group</h1>
               <p>Paket Eksklusif</p>
             </div>

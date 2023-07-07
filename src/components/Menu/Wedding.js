@@ -35,14 +35,14 @@ const Wedding = () => {
           <h1 className="font-bold text-3xl text-center py-10">Paket penjualan</h1>
         </div>
 
-        <div className="flex flex-wrap gap-6 justify-center  ">
+        <div className="flex flex-wrap gap-6 justify-center">
 
-          <div className=" text-center shadow-lg bg-[#F9F5F6] rounded-lg">
-            <div className="bg-slate-400  rounded-t-xl py-6 px-32 text-white ">
+          <div className=" text-center shadow-lg bg-[#F9F5F6] rounded-lg w-96">
+            <div className="bg-slate-400  rounded-t-xl py-6 text-white ">
               <h1 className="font-bold text-2xl mb-2">Wedding</h1>
               <p>Paket Reguler</p>
             </div>
-            <div className="bg-[#F9F5F6]  rounded-b-lg">
+            <div className="bg-[#F9F5F6] rounded-b-lg">
               <h1 className="pt-3">
                 Rp.<span className="text-4xl">1.299</span>.000
               </h1>
@@ -64,8 +64,8 @@ const Wedding = () => {
             <p className="pb-5 text-text">Make ur Different Moment</p>
           </div>
 
-          <div className=" text-center shadow-lg bg-[#F9F5F6] rounded-lg">
-            <div className="bg-slate-400  rounded-t-xl py-6 px-32 text-white ">
+          <div className=" text-center shadow-lg bg-[#F9F5F6] rounded-lg w-96">
+            <div className="bg-slate-400  rounded-t-xl py-6 text-white ">
               <h1 className="font-bold text-2xl mb-2">Wedding</h1>
               <p>Paket Eksklusif</p>
             </div>

@@ -6,7 +6,7 @@ import family3 from "./img/family3.jpg";
 import family4 from "./img/family4.jpg";
 
 const Family = () => {
-  // window.scrollTo(0, 0);
+  window.scrollTo(0, 0);
   const navigate = useNavigate();
   const storedUsername = localStorage.getItem("username");
 

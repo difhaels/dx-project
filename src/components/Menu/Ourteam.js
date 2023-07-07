@@ -32,8 +32,8 @@ const OurTeam = () => {
             <img alt="profil-2" src={agung} className="w-[150px] h-[150px] rounded-lg mx-auto" />
             <p className="text-center pt-1 font-bold">Agung Saputra</p>
             <div className="flex justify-center">
-              <a className="bg-text px-3 font-semibold py-2 mt-2 rounded-md text-bg shadow-2xl hover:text-white" href="https://difhaels.github.io/" target="_blank" rel="noreferrer">
-                Portfolio
+              <a className="bg-text px-3 font-semibold py-2 mt-2 rounded-md text-bg shadow-2xl hover:text-white" href="https://github.com/difhaels" target="_blank" rel="noreferrer">
+                Github
               </a>
             </div>
           </div>

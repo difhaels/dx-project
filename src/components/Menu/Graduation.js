@@ -26,10 +26,10 @@ const Graduation = () => {
       <div className="px py-10 bg-slate-100">
         <h1 className="font-bold text-2xl text-center pb-10">Graduation</h1>
         <div className="flex flex-wrap justify-center gap-7 sm:gap-14 pb-10">
-          <img src={graduation1} alt="img-gallery" className="h-[300px] w-[420px] border-[15px] border-b-[40px] border-stone-50 shadow-2xl" />
-          <img src={graduation2} alt="img-gallery" className="h-[300px] w-[420px] border-[15px] border-b-[40px] border-stone-50 shadow-2xl" />
-          <img src={graduation3} alt="img-gallery" className="h-[300px] w-[420px] border-[15px] border-b-[40px] border-stone-50 shadow-2xl" />
-          <img src={graduation4} alt="img-gallery" className="h-[300px] w-[420px] border-[15px] border-b-[40px] border-stone-50 shadow-2xl" />
+          <img src={graduation1} alt="img-gallery" className="img-paket" />
+          <img src={graduation2} alt="img-gallery" className="img-paket" />
+          <img src={graduation3} alt="img-gallery" className="img-paket" />
+          <img src={graduation4} alt="img-gallery" className="img-paket" />
         </div>
         <div>
           <h1 className="font-bold text-3xl text-center py-10">Paket penjualan</h1>

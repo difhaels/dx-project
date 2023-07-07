@@ -10,13 +10,18 @@ if (mysqli_connect_error()) {
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    $sql = "SELECT * FROM user WHERE username = '$username' AND password = '$password'";
+    $sql = "SELECT * FROM user WHERE username = '$username'";
     $result = mysqli_query($conn, $sql);
 
-    // password_verify($password, $row["password"])
     if ($row = mysqli_fetch_assoc($result)) {
-        // Login berhasil
-        echo "Success!";
+        // Verifikasi kata sandi
+        if (password_verify($password, $row['password'])) {
+            // Login berhasil
+            echo "Success!";
+        } else {
+            // Login gagal
+            echo "Invalid credentials!";
+        }
     } else {
         // Login gagal
         echo "Invalid credentials!";

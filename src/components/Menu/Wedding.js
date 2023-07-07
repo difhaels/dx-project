@@ -94,8 +94,8 @@ const Wedding = () => {
           </div>
 
           {storedUsername !== "undefined" || undefined? 
-            <div className=" text-center shadow-lg bg-[#F9F5F6] rounded-lg">
-              <div className="bg-orange-500  rounded-t-xl py-6 px-32 text-white ">
+            <div className=" text-center shadow-lg bg-[#F9F5F6] rounded-lg w-96">
+              <div className="bg-orange-500  rounded-t-xl py-6 text-white ">
                 <h1 className="font-bold text-2xl mb-2">Wedding</h1>
                 <p>Paket Khusus Member</p>
               </div>
@@ -120,7 +120,7 @@ const Wedding = () => {
               <a href={"http://wa.me/+62895337305533?text=" + text(paket.nama, paket.jenis[2], paket.harga[2])} target="_blank" rel="noreferrer">
                 <button className="button-member" >Book Now!!</button>
               </a>
-              <p className="pb-5 text-text">Make ur Different Moment</p>
+              <p className="pb-5 text-orange-400">Make ur Different Moment</p>
             </div>:
             <div></div>  
           }

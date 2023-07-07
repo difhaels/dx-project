@@ -104,7 +104,7 @@ const Pet = () => {
               <a href={"http://wa.me/+62895337305533?text=" + text(paket.nama, paket.jenis[2], paket.harga[2])} target="_blank" rel="noreferrer">
                 <button className="button-member" >Book Now!!</button>
               </a>
-              <p className="pb-5 text-text">Make ur Different Moment</p>
+              <p className="pb-5 text-orange-400">Make ur Different Moment</p>
             </div>:
             <div></div>  
         }

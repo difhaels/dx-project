@@ -43,3 +43,9 @@
     @apply cursor-default pb-3 text-[10px] sm:text-lg font-bold pt-1 font-mono text-slate-950 group-hover:text-text;
 }
 /* section 2 end */
+
+/* section 3 start */
+.s3-gambar {
+    @apply h-[250px] sm:h-[300px] w-[420px] border-[15px] border-b-[40px] border-stone-50 shadow-2xl;
+}
+/* section 3 end */

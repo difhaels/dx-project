@@ -46,6 +46,6 @@
 
 /* section 3 start */
 .s3-gambar {
-    @apply h-[250px] sm:h-[300px] w-[420px] border-[15px] border-b-[40px] border-stone-50 shadow-2xl;
+    @apply h-[250px] sm:h-[300px] w-[420px] border-[15px] border-b-[40px] border-stone-50 shadow-2xl transition duration-300 transform hover:scale-105;
 }
 /* section 3 end */

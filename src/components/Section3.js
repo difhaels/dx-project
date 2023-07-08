@@ -5,7 +5,7 @@ import group2 from "./img/section3/group2.jpg"
 
 function Section3() {
   return (<>
-    <div className="px py-16 bg-slate-100">
+    <div className="px-4 py-16 bg-slate-100">
       <h1 className="text-center text-xl text-slate-900 font-semibold pb-10">Mini Gallery</h1>
       <div className="flex flex-wrap justify-center gap-7 sm:gap-14 pb-10">
         <img src={family1} alt="img-gallery" className="s3-gambar"/>

@@ -11,7 +11,7 @@ function Login() {
   const [errorMessage, setErrorMessage] = useState("");
 
   const handleSubmit = () => {
-    const url = "https://dxphotograph.000webhostapp.com/login.php";
+    const url = "https://dxphoto2.000webhostapp.com/login.php";
 
     let fdata = new FormData();
     fdata.append("username", username);

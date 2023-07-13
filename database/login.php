@@ -1,7 +1,7 @@
 <?php
 header('Access-Control-Allow-Origin: *');
 
-$conn = new mysqli("localhost", "id20899462_user", "DX_photo1", "id20899462_user");
+$conn = new mysqli("localhost", "id21032953_user", "DX_photo2", "id21032953_dxphoto");
 
 if (mysqli_connect_error()) {
     echo mysqli_connect_error();
